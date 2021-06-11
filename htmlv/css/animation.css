@@ -1,0 +1,96 @@
+.delay1s{
+    transition-delay: .1s !important;
+}
+.delay2s{
+    transition-delay: .2s !important;
+}
+.delay3s{
+    transition-delay: .3s !important;
+}
+.delay4s{
+    transition-delay: .4s !important;
+}
+.delay5s{
+    transition-delay: .5s !important;
+}
+.delay6s{
+    transition-delay: .6s !important;
+}
+.delay7s{
+    transition-delay: .7s !important;
+}
+.delay8s{
+    transition-delay: .8s !important;
+}
+.delay9s{
+    transition-delay: .9s !important;
+}
+.delay10s{
+    transition-delay: 1s !important;
+}
+.delay11s{
+    transition-delay: 1.1s !important;
+}
+.delay12s{
+    transition-delay: 1.2s !important;
+}
+.delay13s{
+    transition-delay: 1.3s !important;
+}
+.delay14s{
+    transition-delay: 1.4s !important;
+}
+.delay15s{
+    transition-delay: 1.5s !important;
+}
+.delay16s{
+    transition-delay: 1.6s !important;
+}
+.delay17s{
+    transition-delay: 1.7s !important;
+}
+.delay18s{
+    transition-delay: 1.8s !important;
+}
+.delay19s{
+    transition-delay: 1.9s !important;
+}
+.delay20s{
+    transition-delay: 2.0s !important;
+}
+.fadeindown{
+    transform: translateY(-4vh);
+    opacity: 0;
+    transition: transform .6s , opacity .6s;
+}
+.fadeindown.animated{
+    transform: translateY(0vh);
+    opacity: 1;
+}
+.fadeinup{
+    transform: translateY(4vh);
+    opacity: 0;
+    transition: transform .6s , opacity .6s;
+}
+.fadeinup.animated{
+    transform: translateY(0vh);
+    opacity: 1;
+}
+.fadeinleft{
+    transform: translateX(-4vw);
+    opacity: 0;
+    transition: transform .6s , opacity .6s;
+}
+.fadeinleft.animated{
+    transform: translateX(0vw);
+    opacity: 1;
+}
+.fadeinright{
+    transform: translateX(-4vw);
+    opacity: 0;
+    transition: transform .6s , opacity .6s;
+}
+.fadeinright.animated{
+    transform: translateX(0vw);
+    opacity: 1;
+}

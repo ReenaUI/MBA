@@ -1,0 +1,15 @@
+<svg id="menu" xmlns="http://www.w3.org/2000/svg" width="36.469" height="22.156" viewBox="0 0 36.469 22.156">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1.5px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Vector" class="cls-1" d="M354.382,788.254H328.867" transform="translate(-318.062 -776.719)"/>
+  <path id="Vector-2" data-name="Vector" class="cls-1" d="M354.517,777.454h-36.45" transform="translate(-318.062 -776.719)"/>
+  <path id="Vector-3" data-name="Vector" class="cls-1" d="M354.517,798.139H336.292" transform="translate(-318.062 -776.719)"/>
+</svg>
