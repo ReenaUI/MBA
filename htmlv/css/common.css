@@ -1,62 +1,122 @@
 .theme-heading-sm {
-    letter-spacing: 0px;
-    color: rgba(255, 255, 255, 0.6);
-    opacity: 0.6;
-    font-size: 18px;
-    font-family: CeraPro;
-    font-weight: 600;
-    margin-bottom: 41px;
-    display: block;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
+  font-size: 18px;
+  font-family: CeraPro;
+  font-weight: 600;
+  margin-bottom: 41px;
+  display: block;
 }
 
 .theme-h2 {
-    font-size: 56px;
-    font-family: atypdisplay;
-    line-height: 78px;
-    font-weight: 600;
+  font-size: 56px;
+  font-family: atypdisplay;
+  line-height: 78px;
+  font-weight: 600;
 }
 
 .arrow-round {
-    position: relative;
-    padding-left: 64px;
-    line-height: 46px;
+  position: relative;
+  padding-left: 64px;
+  line-height: 46px;
 }
 
 .arrow-round::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    width: 46px;
-    height: 46px;
-    border: 0.5px solid rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-    background: url("../images/right-arrow.png") no-repeat center;
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 46px;
+  height: 46px;
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  background: url("../images/right-arrow.png") no-repeat center;
 }
 
 .arrow-round span {
-    font-size: 22px;
-    text-align: left;
-    line-height: 34px;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    display: inline-block;
-    font-weight: 600;
-    font-family: CeraPro;
+  font-size: 22px;
+  text-align: left;
+  line-height: 34px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: 600;
+  font-family: CeraPro;
 }
 
 .highlight-color--blue {
-    color: #4BAAD0;
+  color: #4baad0;
 }
 
 .two-col-cell {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.two-col-cell  .left-cell {
-    max-width: 700px;
+.two-col-cell .left-cell {
+  max-width: 700px;
+}
+.two-col-cell .right-cell {
+  max-width: 780px;
+}
+.two-col-cell p {
+  margin-bottom: 35px;
 }
 
-.two-col-cell  .right-cell {
-    max-width: 780px;
+.outline-btn {
+  background: transparent;
+  border: 1px solid #4BAAD0;
+}
+.outline-btn:hover {
+  background: #4baad0;
+}
+
+.two-btn-wrap .custom-button:first-child {
+  margin-right: 30px;
+}
+
+.round-shape {
+  position: relative;
+}
+
+.round-shape::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  margin-left: -139px;
+  width: 278px;
+  height: 74px;
+  border: 1px solid #FFFFFF;
+  opacity: 0.2;
+  border-radius: 50%;
+}
+
+.overlay-full-img-block{
+  position: relative;
+}
+.overlay-full-img-block::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background: url("../images/gradient2.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.paragraph-bold {
+  font-weight: 600;
+}
+
+.para-sm {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 300;
 }

@@ -676,7 +676,8 @@
     margin-bottom: 35px;
   }
   .career-culture-block p,
-  .career-success-block P {
+  .career-success-block P,
+  .two-col-cell p {
     margin-bottom: 25px;
   }
   .career-success-block .theme-h2 {
@@ -1078,7 +1079,8 @@
     margin-bottom: 35px;
   }
   .career-culture-block p,
-  .career-success-block P {
+  .career-success-block P,
+  .two-col-cell p {
     margin-bottom: 25px;
   }
   .career-success-block .theme-h2 {
@@ -1536,7 +1538,8 @@
     margin-bottom: 35px;
   }
   .career-culture-block p,
-  .career-success-block P {
+  .career-success-block P,
+  .two-col-cell p {
     margin-bottom: 25px;
   }
   .career-success-block .theme-h2 {
@@ -2424,7 +2427,8 @@
     width: 100%;
   }
   .career-culture-block p,
-  .career-success-block P {
+  .career-success-block P,
+  .two-col-cell p {
     margin-bottom: 20px;
   }
   .career-success-block .two-col-cell .left-cell {
@@ -3564,7 +3568,8 @@
     width: 100%;
   }
   .career-culture-block p,
-  .career-success-block P {
+  .career-success-block P,
+  .two-col-cell p {
     margin-bottom: 20px;
   }
   .career-success-block .two-col-cell .left-cell {
@@ -3642,11 +3647,12 @@
   }
 
   .arrow-round::before {
-      display: none;
+    display: none;
   }
 
-  .career-link-block a.active::after, .career-link-block a:hover::after {
-      width: 100%;
+  .career-link-block a.active::after,
+  .career-link-block a:hover::after {
+    width: 100%;
   }
 
   .career-link-block {
@@ -3723,7 +3729,7 @@
     background-size: cover;
   }
   .theme-h2 {
-      padding-top: 0;
+    padding-top: 0;
   }
   .career-steps {
     padding: 15px;
