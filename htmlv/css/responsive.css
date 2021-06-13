@@ -186,7 +186,9 @@
     left: -33px;
   }
 
-  .testi-sec .testi-bottom .testi-right .testi-right-para p {
+  .testi-sec .testi-bottom .testi-right .testi-right-para p,
+  .para-sm,
+  p {
     font-size: 22px;
     line-height: 32px;
   }
@@ -394,6 +396,64 @@
   .career-link-block {
     padding-bottom: 55px;
   }
+
+  .inner-pages-banner .cust-container::after {
+    right: 0;
+  }
+
+  /* about page */
+  .about-company-history-block {
+    padding-bottom: 0;
+  }
+
+  .about-company-history-block h2 {
+    margin-bottom: 75px;
+  }
+
+  .about-people-block h2 {
+    max-width: 548px;
+  }
+  .about-feature-block .theme-h2 {
+    max-width: 568px;
+  }
+  .about-people-block {
+    padding-bottom: 75px;
+    padding-top: 132px;
+  }
+  .about-contact-block {
+    padding-top: 190px;
+    padding-bottom: 185px;
+  }
+  .about-people-block .two-col-cell {
+    padding-bottom: 102px;
+  }
+  .about-company-history-block {
+    min-height: 785px;
+  }
+  .about-finacial-block {
+    padding-top: 157px;
+    padding-bottom: 117px;
+  }
+  .about-feature-block {
+    padding-top: 129px;
+    padding-bottom: 153px;
+  }
+  .about-contact-block h2 {
+    max-width: 418px;
+  }
+  .about-finacial-block .testimonial-head {
+    margin-bottom: 48px;
+  }
+  .about-finacial-block .testimonial-about p {
+    line-height: 38px;
+  }
+  .about-people-block .paragraph-bold {
+    max-width: 548px;
+  }
+  .about-finacial-block .testimonial-head h5 {
+    font-size: 22px;
+    line-height: 32px;
+  }
 }
 
 @media (min-width: 1366px) and (max-width: 1439px) {
@@ -544,7 +604,9 @@
   p,
   .testi-sec .testi-bottom .testi-right .testi-right-para p,
   .regions-sec .region-inner .region-bottom .region-right p,
-  footer .footer-inner .footer-outer li a {
+  footer .footer-inner .footer-outer li a,
+  .about-finacial-block .testimonial-head h5,
+  .para-sm {
     font-size: 17px;
     line-height: 27px;
   }
@@ -647,12 +709,12 @@
   }
   .inner-pages-banner::before {
     left: 41px;
-    width: 1002px;
-    height: 1002px;
+    width: 912px;
+    height: 912px;
   }
   .inner-pages-banner .cust-container::after {
-    width: 422px;
-    height: 422px;
+    width: 472px;
+    height: 472px;
   }
   .career-last-block {
     padding-right: 40px;
@@ -744,7 +806,7 @@
     padding-top: 120px;
   }
   .custom-button {
-    font-size: 19px;
+    font-size: 18px;
   }
   .inner-pages-banner .banner-cont .banner-inner .banner-left p {
     padding: 31px 0px 0 0px;
@@ -780,6 +842,81 @@
   .arrow-round::before {
     width: 40px;
     height: 40px;
+  }
+  .inner-pages-banner .cust-container::after {
+    right: 0;
+  }
+
+  /* about page */
+  .about-company-history-block {
+    padding-bottom: 0;
+  }
+
+  .about-company-history-block h2 {
+    margin-bottom: 45px;
+    max-width: 1009px;
+  }
+
+  .about-people-block h2 {
+    max-width: 428px;
+  }
+  .round-shape::before {
+    margin-left: -70px;
+    width: 135px;
+    height: 45px;
+  }
+  .about-feature-block .theme-h2 {
+    max-width: 438px;
+  }
+  .about-people-block {
+    padding-bottom: 35px;
+    padding-top: 112px;
+    background-size: 84%;
+  }
+  .about-contact-block {
+    padding-top: 160px;
+    padding-bottom: 185px;
+  }
+  .about-contact-block .cust-container::after {
+    top: -300px;
+    width: 582px;
+    height: 582px;
+  }
+  .about-contact-block .cust-container::before {
+    top: -700px;
+    width: 867px;
+    height: 867px;
+  }
+  .about-people-block .two-col-cell {
+    padding-bottom: 102px;
+  }
+  .about-company-history-block {
+    min-height: 695px;
+    padding-top: 0;
+  }
+  .about-finacial-block {
+    padding-top: 157px;
+    padding-bottom: 117px;
+  }
+  .about-feature-block {
+    padding-top: 129px;
+    padding-bottom: 113px;
+  }
+  .about-contact-block h2 {
+    max-width: 418px;
+  }
+  .about-finacial-block .testimonial-head {
+    margin-bottom: 48px;
+  }
+  .about-finacial-block .testimonial-about p {
+    line-height: 38px;
+  }
+  .about-people-block .paragraph-bold {
+    max-width: 448px;
+  }
+  .about-finacial-block .testimonial-head span {
+    font-size: 17px;
+    line-height: 27px;
   }
 }
 
@@ -933,7 +1070,8 @@
   p,
   .testi-sec .testi-bottom .testi-right .testi-right-para p,
   .regions-sec .region-inner .region-bottom .region-right p,
-  footer .footer-inner .footer-outer li a {
+  footer .footer-inner .footer-outer li a,
+  .para-sm {
     font-size: 17px;
     line-height: 27px;
   }
@@ -971,13 +1109,6 @@
     bottom: 30px;
     padding: 0px 35px;
     margin: auto;
-  }
-
-  .custom-button {
-    width: 189px;
-    height: 58px;
-    line-height: 58px;
-    font-size: 18px;
   }
 
   .market-sec .market-bottom li .img-cont .read-button {
@@ -1050,12 +1181,13 @@
   }
   .inner-pages-banner::before {
     left: 41px;
-    width: 1002px;
-    height: 1002px;
+    width: 822px;
+    height: 822px;
+    top: -235.5px;
   }
   .inner-pages-banner .cust-container::after {
-    width: 422px;
-    height: 422px;
+    width: 452px;
+    height: 452px;
   }
   .career-last-block {
     padding-right: 40px;
@@ -1087,7 +1219,7 @@
     margin-bottom: 40px;
   }
   .two-col-cell .left-cell {
-    max-width: 580px;
+    max-width: 480px;
   }
   .two-col-cell .right-cell {
     max-width: 620px;
@@ -1183,6 +1315,97 @@
   .arrow-round::before {
     width: 40px;
     height: 40px;
+  }
+  .inner-pages-banner .cust-container::after {
+    right: 0;
+  }
+
+  /* about page */
+  .about-company-history-block {
+    padding-bottom: 0;
+  }
+
+  .about-company-history-block h2 {
+    margin-bottom: 45px;
+    max-width: 1009px;
+  }
+
+  .about-people-block h2 {
+    max-width: 428px;
+  }
+  .round-shape::before {
+    margin-left: -70px;
+    width: 135px;
+    height: 45px;
+  }
+  .about-feature-block .theme-h2 {
+    max-width: 438px;
+  }
+  .about-people-block {
+    padding-bottom: 15px;
+    padding-top: 92px;
+    background-size: 84%;
+  }
+  .about-contact-block {
+    padding-top: 100px;
+    padding-bottom: 135px;
+  }
+  .about-contact-block .cust-container::after {
+    top: -290px;
+    width: 412px;
+    height: 412px;
+    right: 120px;
+    bottom: 0px;
+  }
+  .about-contact-block .cust-container::before {
+    top: -460px;
+    width: 657px;
+    height: 657px;
+  }
+  .about-people-block .two-col-cell {
+    padding-bottom: 72px;
+  }
+  .about-company-history-block {
+    min-height: 695px;
+    padding-top: 0;
+  }
+  .about-finacial-block {
+    padding-top: 107px;
+    padding-bottom: 77px;
+  }
+  .about-feature-block {
+    padding-top: 129px;
+    padding-bottom: 113px;
+  }
+  .about-contact-block h2 {
+    max-width: 338px;
+  }
+  .about-finacial-block .testimonial-head {
+    margin-bottom: 28px;
+    padding-left: 86px;
+  }
+  .about-finacial-block .testimonial-about p {
+    line-height: 32px;
+  }
+  .about-people-block .paragraph-bold {
+    max-width: 448px;
+    line-height: 32px;
+  }
+  .para-sm,
+  .about-finacial-block .testimonial-head h5 {
+    font-size: 17px;
+    line-height: 27px;
+  }
+
+  .custom-button {
+    width: 189px;
+    height: 51px;
+    line-height: 48px;
+    font-size: 17px;
+  }
+  .about-finacial-block .testimonial-head span {
+    font-size: 17px;
+    line-height: 27px;
   }
 }
 
@@ -1646,6 +1869,97 @@
     width: 38px;
     height: 38px;
     background-size: 12px;
+  }
+  .inner-pages-banner .cust-container::after {
+    right: 0;
+  }
+
+  /* about page */
+  .about-company-history-block {
+    padding-bottom: 0;
+  }
+
+  .about-company-history-block h2 {
+    margin-bottom: 45px;
+    max-width: 1009px;
+  }
+
+  .about-people-block h2 {
+    max-width: 428px;
+  }
+  .round-shape::before {
+    margin-left: -70px;
+    width: 135px;
+    height: 45px;
+  }
+  .about-feature-block .theme-h2 {
+    max-width: 438px;
+  }
+  .about-people-block {
+    padding-bottom: 15px;
+    padding-top: 92px;
+    background-size: 84%;
+  }
+  .about-contact-block {
+    padding-top: 100px;
+    padding-bottom: 135px;
+  }
+  .about-contact-block .cust-container::after {
+    top: -290px;
+    width: 412px;
+    height: 412px;
+    right: 120px;
+    bottom: 0px;
+  }
+  .about-contact-block .cust-container::before {
+    top: -460px;
+    width: 657px;
+    height: 657px;
+  }
+  .about-people-block .two-col-cell {
+    padding-bottom: 72px;
+  }
+  .about-company-history-block {
+    min-height: 695px;
+    padding-top: 0;
+  }
+  .about-finacial-block {
+    padding-top: 107px;
+    padding-bottom: 77px;
+  }
+  .about-feature-block {
+    padding-top: 129px;
+    padding-bottom: 113px;
+  }
+  .about-contact-block h2 {
+    max-width: 338px;
+  }
+  .about-finacial-block .testimonial-head {
+    margin-bottom: 28px;
+    padding-left: 86px;
+  }
+  .about-finacial-block .testimonial-about p {
+    line-height: 32px;
+  }
+  .about-people-block .paragraph-bold {
+    max-width: 448px;
+    line-height: 32px;
+  }
+  .para-sm,
+  .about-finacial-block .testimonial-head h5 {
+    font-size: 17px;
+    line-height: 27px;
+  }
+
+  .custom-button {
+    width: 189px;
+    height: 51px;
+    line-height: 48px;
+    font-size: 17px;
+  }
+  .about-finacial-block .testimonial-head span {
+    font-size: 17px;
+    line-height: 27px;
   }
 }
 
@@ -2380,17 +2694,17 @@
     padding-bottom: 40px;
   }
   .inner-pages-banner::before {
-    left: -80px;
+    left: -10%;
     width: 642px;
     height: 642px;
-    top: -105.5px;
+    top: -165.5px;
     right: 0;
     margin: auto;
   }
   .inner-pages-banner .cust-container::after {
-    width: 262px;
-    height: 262px;
-    right: 20px;
+    width: 342px;
+    height: 342px;
+    right: 30px;
   }
   .career-last-block {
     padding-right: 0;
@@ -3529,9 +3843,16 @@
     right: 0;
     left: 0;
   } */
-  .inner-pages-banner .cust-container::after,
   .inner-pages-banner::before {
-    display: none;
+    top: -125.5px;
+    left: 2%;
+    width: 400px;
+    height: 400px;
+  }
+  .inner-pages-banner .cust-container::after {
+    right: 20px;
+    width: 250px;
+    height: 250px;
   }
   .career-last-block {
     padding-right: 0;
@@ -3713,7 +4034,6 @@
     background: url("../images/straight-line-dash.svg") no-repeat center;
     background-size: cover;
   }
-
   .career-steps:last-child::after {
     height: 0;
   }
@@ -3733,6 +4053,20 @@
   }
   .career-steps {
     padding: 15px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .inner-pages-banner::before {
+    top: -125.5px;
+    left: 2%;
+    width: 300px;
+    height: 300px;
+  }
+  .inner-pages-banner .cust-container::after {
+    right: 20px;
+    width: 180px;
+    height: 180px;
+    opacity: 0.5;
   }
 }
 
