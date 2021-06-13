@@ -903,7 +903,7 @@
     padding-bottom: 113px;
   }
   .about-contact-block h2 {
-    max-width: 418px;
+    max-width: 50%;
   }
   .about-finacial-block .testimonial-head {
     margin-bottom: 48px;
@@ -1885,15 +1885,18 @@
   }
 
   .about-people-block h2 {
-    max-width: 428px;
+    max-width: 378px;
   }
   .round-shape::before {
     margin-left: -70px;
     width: 135px;
-    height: 45px;
+    height: 36px;
+  }
+  .about-finacial-block .testimonial-about {
+    max-width: 327px;
   }
   .about-feature-block .theme-h2 {
-    max-width: 438px;
+    max-width: 388px;
   }
   .about-people-block {
     padding-bottom: 15px;
@@ -1906,9 +1909,9 @@
   }
   .about-contact-block .cust-container::after {
     top: -290px;
-    width: 412px;
-    height: 412px;
-    right: 120px;
+    width: 362px;
+    height: 362px;
+    right: 30px;
     bottom: 0px;
   }
   .about-contact-block .cust-container::before {
@@ -2798,7 +2801,7 @@
     font-size: 19px;
   }
   .inner-pages-banner .banner-cont .banner-inner .banner-left p {
-    padding: 31px 0px 0 0px;
+    padding: 11px 0px 0 0px;
   }
   .inner-pages-banner .banner-cont .banner-inner .banner-left .banner-button {
     margin-top: 45px;
@@ -2878,6 +2881,115 @@
   .inner-pages-banner .banner-content {
     padding-left: 0;
   }
+
+  /* about page */
+  .about-company-history-block {
+    padding-bottom: 0;
+  }
+
+  .about-company-history-block h2 {
+    margin-bottom: 45px;
+    max-width: 1009px;
+  }
+
+  .about-people-block h2 {
+    max-width: 378px;
+  }
+  .round-shape::before {
+    margin-left: -70px;
+    width: 135px;
+    height: 36px;
+  }
+  .about-finacial-block .testimonial-about {
+    max-width: 448px;
+    margin-top: 50px;
+  }
+  .about-finacial-block .testimonial-about::after {
+    width: 44px;
+    height: 44px;
+    background-size: 44px;
+  }
+  .about-feature-block .theme-h2 {
+    max-width: 388px;
+  }
+  .about-people-block {
+    padding-bottom: 15px;
+    padding-top: 92px;
+    background-size: 84%;
+  }
+  .about-contact-block {
+    padding-top: 80px;
+    padding-bottom: 35px;
+  }
+  .about-contact-block .cust-container::after {
+    top: -302px;
+    width: 272px;
+    height: 272px;
+    right: 30px;
+    bottom: 0px;
+  }
+  .about-contact-block .cust-container::before {
+    top: -310px;
+    width: 497px;
+    height: 497px;
+  }
+  .about-people-block .two-col-cell {
+    padding-bottom: 72px;
+  }
+  .about-company-history-block {
+    min-height: 655px;
+    padding-top: 0;
+  }
+  .about-finacial-block {
+    padding-top: 107px;
+    padding-bottom: 77px;
+  }
+  .about-feature-block {
+    padding-top: 59px;
+    padding-bottom: 93px;
+  }
+  .about-contact-block h2 {
+    max-width: 338px;
+  }
+  .about-finacial-block .testimonial-head {
+    margin-bottom: 28px;
+    padding-left: 86px;
+  }
+  .about-finacial-block .testimonial-about p {
+    line-height: 32px;
+  }
+  .about-people-block .paragraph-bold {
+    max-width: 50%;
+    line-height: 32px;
+  }
+  .para-sm,
+  .about-finacial-block .testimonial-head h5,
+  .about-finacial-block .testimonial-head span {
+    font-size: 17px;
+    line-height: 27px;
+  }
+
+  .custom-button {
+    width: 189px;
+    height: 51px;
+    line-height: 48px;
+    font-size: 15px;
+  }
+
+  .inner-pages-banner.banner-outer.about-banner
+    .banner-cont
+    .banner-inner
+    .banner-left,
+  .inner-pages-banner.banner-outer .banner-cont .banner-inner .banner-left {
+    padding-top: 155px;
+  }
+  .about-company-history-block .two-col-cell .left-cell {
+    margin-bottom: 0;
+  }
+  .about-finacial-block .right-cell {
+    justify-content: flex-start;
+  }
+
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -3517,6 +3629,9 @@
   .banner-outer {
     height: auto;
     padding-bottom: 80px;
+  }
+
+  .home-banner {
     background: #071c39 url(../images/banner-bg.png) no-repeat;
     background-position: bottom center;
     background-size: 100%;
@@ -4054,6 +4169,126 @@
   .career-steps {
     padding: 15px;
   }
+
+  /* about page */
+  .about-company-history-block {
+    padding-bottom: 0;
+  }
+
+  .about-company-history-block h2 {
+    margin-bottom: 45px;
+    max-width: 1009px;
+  }
+
+  .about-people-block h2 {
+    max-width: 378px;
+  }
+  .round-shape::before {
+    margin-left: -70px;
+    width: 135px;
+    height: 36px;
+  }
+  .about-finacial-block .testimonial-about {
+    max-width: 100%;
+    margin-top: 50px;
+  }
+  .about-finacial-block .testimonial-about::after {
+    width: 34px;
+    height: 34px;
+    background-size: 34px;
+    top: -35px;
+  }
+  .about-feature-block .theme-h2 {
+    max-width: 388px;
+  }
+  .about-people-block {
+    padding-bottom: 0;
+    padding-top: 80px;
+    background-size: 100%;
+    background-position: center 98%;
+  }
+  .about-contact-block {
+    padding-top: 60px;
+    padding-bottom: 5px;
+  }
+  .about-contact-block .cust-container::after {
+    top: -302px;
+    width: 182px;
+    height: 182px;
+    right: -70px;
+    bottom: 0px;
+  }
+  .about-contact-block .cust-container::before {
+    top: -170px;
+    width: 267px;
+    height: 267px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .about-people-block .two-col-cell {
+    padding-bottom: 32px;
+  }
+  .about-company-history-block {
+    min-height: auto;
+    padding-bottom: 70px;
+    padding-top: 80px;
+  }
+  .about-finacial-block {
+    padding-top: 80px;
+    padding-bottom: 67px;
+  }
+  .about-feature-block {
+    padding-top: 39px;
+    padding-bottom: 63px;
+  }
+  .about-contact-block h2 {
+    margin-bottom: 29px;
+    max-width: 338px;
+  }
+  .about-finacial-block .testimonial-head {
+    margin-bottom: 18px;
+    padding-left: 56px;
+  }
+  .about-finacial-block .testimonial-about p {
+    line-height: 25px;
+  }
+  .about-people-block .paragraph-bold {
+    max-width: 100%;
+    line-height: 25px;
+  }
+  .para-sm,
+  .about-finacial-block .testimonial-head h5 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .custom-button {
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+  }
+  .about-finacial-block .testimonial-head span {
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .inner-pages-banner.banner-outer.about-banner
+    .banner-cont
+    .banner-inner
+    .banner-left,
+  .inner-pages-banner.banner-outer .banner-cont .banner-inner .banner-left {
+    padding-top: 40px;
+  }
+  .about-company-history-block .two-col-cell .left-cell {
+    margin-bottom: 0;
+  }
+  .about-finacial-block .right-cell {
+    justify-content: flex-start;
+  }
+  .two-btn-wrap .custom-button:first-child {
+    margin-right: 20px;
+}
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .inner-pages-banner::before {
@@ -4067,7 +4302,31 @@
     width: 180px;
     height: 180px;
     opacity: 0.5;
+    top: -100px;
   }
+  .inner-pages-banner.banner-outer.about-banner
+  .banner-cont
+  .banner-inner
+  .banner-left
+  .two-btn-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.inner-pages-banner.banner-outer.about-banner
+  .banner-cont
+  .banner-inner
+  .banner-left
+  .two-btn-wrap
+  .custom-button {
+  margin-bottom: 20px;
+}
+.inner-pages-banner.banner-outer.about-banner
+  .banner-cont
+  .banner-inner
+  .banner-left
+  .two-btn-wrap.custom-button:first-child {
+  margin-right: 0;
+}
 }
 
 @media (min-width: 320px) and (max-width: 374px) {
