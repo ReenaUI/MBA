@@ -302,7 +302,6 @@ a {
   position: relative;
   display: flex;
   align-items: center;
-  
 }
 
 .home-banner {
@@ -1730,11 +1729,18 @@ header.mobile-header .header-inner .header-right .header-menu {
 }
 
 /* about page */
-.inner-pages-banner.banner-outer.about-banner .banner-cont .banner-inner .banner-left {
+.inner-pages-banner.banner-outer.about-banner
+  .banner-cont
+  .banner-inner
+  .banner-left {
   padding-top: 75px;
 }
 
-.inner-pages-banner.banner-outer.about-banner .banner-cont .banner-inner .banner-left .two-btn-wrap{
+.inner-pages-banner.banner-outer.about-banner
+  .banner-cont
+  .banner-inner
+  .banner-left
+  .two-btn-wrap {
   margin-top: 32px;
 }
 
@@ -1744,12 +1750,12 @@ header.mobile-header .header-inner .header-right .header-menu {
 }
 
 .about-feature-block {
-  background: #071C39;
+  background: #071c39;
   padding-top: 169px;
   padding-bottom: 213px;
 }
 
-.about-feature-block  .theme-h2 {
+.about-feature-block .theme-h2 {
   max-width: 628px;
 }
 
@@ -1781,7 +1787,7 @@ header.mobile-header .header-inner .header-right .header-menu {
 }
 
 .about-people-block {
-  background: #071C39 url("../images/region.png") no-repeat right 83%;
+  background: #071c39 url("../images/region.png") no-repeat right 83%;
   padding-bottom: 125px;
   padding-top: 152px;
 }
@@ -1808,7 +1814,7 @@ h2 cite {
 .about-contact-block {
   padding-top: 260px;
   padding-bottom: 185px;
-  background: #071C39;
+  background: #071c39;
   overflow: hidden;
   position: relative;
 }
@@ -1828,7 +1834,7 @@ h2 cite {
 .about-contact-block .cust-container::after {
   position: absolute;
   content: "";
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   opacity: 0.25;
   border-radius: 50%;
 }
@@ -1850,7 +1856,7 @@ h2 cite {
 }
 
 .about-finacial-block {
-  background: #20334D;
+  background: #20334d;
   padding-top: 177px;
   padding-bottom: 137px;
   position: relative;
@@ -1861,7 +1867,7 @@ h2 cite {
   margin-bottom: 19px;
 }
 
-.about-finacial-block .right-cell{
+.about-finacial-block .right-cell {
   display: flex;
   justify-content: flex-end;
 }
@@ -1899,7 +1905,7 @@ h2 cite {
   line-height: 34px;
   font-weight: 400;
   font-family: CeraPro;
-  color: rgba(255, 255, 255, 0.6)
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .about-finacial-block .testimonial-about p {

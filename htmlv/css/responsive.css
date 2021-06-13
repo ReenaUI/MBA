@@ -2989,7 +2989,6 @@
   .about-finacial-block .right-cell {
     justify-content: flex-start;
   }
-
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -4288,7 +4287,7 @@
   }
   .two-btn-wrap .custom-button:first-child {
     margin-right: 20px;
-}
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .inner-pages-banner::before {
@@ -4305,28 +4304,28 @@
     top: -100px;
   }
   .inner-pages-banner.banner-outer.about-banner
-  .banner-cont
-  .banner-inner
-  .banner-left
-  .two-btn-wrap {
-  display: flex;
-  flex-direction: column;
-}
-.inner-pages-banner.banner-outer.about-banner
-  .banner-cont
-  .banner-inner
-  .banner-left
-  .two-btn-wrap
-  .custom-button {
-  margin-bottom: 20px;
-}
-.inner-pages-banner.banner-outer.about-banner
-  .banner-cont
-  .banner-inner
-  .banner-left
-  .two-btn-wrap.custom-button:first-child {
-  margin-right: 0;
-}
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .two-btn-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .inner-pages-banner.banner-outer.about-banner
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .two-btn-wrap
+    .custom-button {
+    margin-bottom: 20px;
+  }
+  .inner-pages-banner.banner-outer.about-banner
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .two-btn-wrap.custom-button:first-child {
+    margin-right: 0;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 374px) {
