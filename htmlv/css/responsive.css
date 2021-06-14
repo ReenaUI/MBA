@@ -131,7 +131,8 @@
     top: 33px;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li {
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li,
+  .arrow-lists ul li {
     margin-right: 10px;
     padding-right: 10px;
   }
@@ -142,7 +143,8 @@
     background-size: 550px;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a {
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a,
+  .arrow-lists ul li a {
     font-size: 18px;
   }
 
@@ -482,7 +484,8 @@
     top: 33px;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li {
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li ,
+  .arrow-lists ul li{
     margin-right: 10px;
     padding-right: 10px;
   }
@@ -493,7 +496,8 @@
     background-size: 550px;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a {
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a,
+  .arrow-lists ul li a {
     font-size: 18px;
   }
 
@@ -947,7 +951,8 @@
     height: 49px;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li {
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li,
+  .arrow-lists ul li {
     margin-right: 10px;
     padding-right: 10px;
   }
@@ -958,7 +963,8 @@
     background-size: 550px;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a {
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a,
+  .arrow-lists ul li a {
     font-size: 17px;
   }
 
@@ -1440,7 +1446,8 @@
     width: 45px;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li {
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li ,
+  .arrow-lists ul li{
     margin-right: 10px;
     padding-right: 10px;
     margin-bottom: 15px;
@@ -1456,7 +1463,8 @@
     background-size: 550px;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a {
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a,
+  .arrow-lists ul li a {
     font-size: 17px;
   }
 
@@ -1690,7 +1698,8 @@
     width: 43.3%;
   }
 
-  .banner-list ul {
+  .banner-list ul,
+  .arrow-lists ul {
     flex-wrap: wrap;
   }
 
@@ -1997,7 +2006,8 @@
     width: 45px;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li {
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li,
+  .arrow-lists ul li {
     margin-right: 10px;
     padding-right: 10px;
     margin-bottom: 15px;
@@ -2013,7 +2023,8 @@
     background-size: 550px;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a {
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a,
+  .arrow-lists ul li a {
     font-size: 17px;
   }
 
@@ -2247,7 +2258,8 @@
     width: 43.3%;
   }
 
-  .banner-list ul {
+  .banner-list ul ,
+  .arrow-lists ul {
     flex-wrap: wrap;
   }
 
@@ -2284,7 +2296,8 @@
     flex-direction: column;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li {
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li ,
+  .arrow-lists ul li{
     margin-right: 10px;
     padding-right: 10px;
   }
@@ -2296,7 +2309,8 @@
     left: 15%;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a {
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a,
+  .arrow-lists ul li a {
     font-size: 16px;
   }
 
@@ -3026,7 +3040,8 @@
     width: 45px;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li {
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li,
+  .arrow-lists ul li {
     margin-right: 10px;
     padding-right: 10px;
     margin-bottom: 15px;
@@ -3042,7 +3057,8 @@
     background-size: 550px;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a {
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a,
+  .arrow-lists ul li a {
     font-size: 17px;
   }
 
@@ -3284,7 +3300,8 @@
     width: 43.3%;
   }
 
-  .banner-list ul {
+  .banner-list ul ,
+  .arrow-lists ul {
     flex-wrap: wrap;
   }
 
@@ -3321,7 +3338,8 @@
     flex-direction: column;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li {
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li,
+  .arrow-lists ul li {
     margin-right: 10px;
     padding-right: 10px;
   }
@@ -3333,7 +3351,8 @@
     left: 15%;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a {
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a ,
+  .arrow-lists ul li a{
     font-size: 15px;
   }
 

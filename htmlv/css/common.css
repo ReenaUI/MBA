@@ -120,3 +120,7 @@
   line-height: 34px;
   font-weight: 300;
 }
+
+.bg-blue-dark {
+  background: #071C39;
+}

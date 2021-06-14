@@ -426,7 +426,8 @@ header .header-inner .header-right .header-menu .menu-sec li:hover a {
   width: 57%;
 }
 
-.banner-list ul {
+.banner-list ul ,
+.arrow-lists ul{
   display: flex;
 }
 
@@ -435,18 +436,21 @@ header .header-inner .header-right .header-menu .menu-sec li:hover a {
   padding: 29px 0px 20px 0px;
 }
 
-.banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li {
+.banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li,
+.arrow-lists ul li {
   display: inline-block;
   margin-right: 23px;
   background: url(../images/divider.png) right center no-repeat;
   padding-right: 23px;
 }
 
-.banner-outer .banner-cont .banner-inner .banner-left .banner-list {
+.banner-outer .banner-cont .banner-inner .banner-left .banner-list ,
+.arrow-lists{
   margin-top: 13px;
 }
 
-.banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a {
+.banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a,
+.arrow-lists ul li a {
   position: relative;
   padding-right: 21px;
 }
@@ -458,7 +462,8 @@ header .header-inner .header-right .header-menu .menu-sec li:hover a {
   .banner-list
   ul
   li
-  a::after {
+  a::after ,
+  .arrow-lists ul li a::after{
   position: absolute;
   content: "";
   right: 0;
@@ -477,17 +482,20 @@ header .header-inner .header-right .header-menu .menu-sec li:hover a {
   .banner-list
   ul
   li
-  a:hover::after {
+  a:hover::after,
+  .arrow-lists ul li a:hover::after {
   right: -6px;
 }
 
-.banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a {
+.banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a ,
+.arrow-lists ul li a{
   font-size: 20px;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
-.banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li span {
+.banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li span,
+.arrow-lists ul li span {
   color: #fff;
   padding-left: 10px;
 }
@@ -498,7 +506,8 @@ header .header-inner .header-right .header-menu .menu-sec li:hover a {
   .banner-left
   .banner-list
   ul
-  li:last-child {
+  li:last-child,
+  .arrow-lists ul li:last-child {
   margin-right: 0px;
   padding: 0px;
   background: none;
@@ -1910,4 +1919,128 @@ h2 cite {
 
 .about-finacial-block .testimonial-about p {
   line-height: 44px;
+}
+
+/* contract page */
+.contract-banner {
+  background: url("../images/contract-banner.png") no-repeat center;
+  background-size: cover;
+}
+.contract-banner .banner-cont .banner-inner .banner-left .banner-button {
+  margin-top: 56px;
+}
+.contract-banner .banner-cont .banner-inner .banner-left{
+  width: 78.8%;
+}
+
+.contract-banner .banner-cont .banner-inner .banner-left .arrow-lists {
+  margin-top: 67px;
+}
+
+.contract-about-block {
+  padding-top: 131px;
+}
+
+.contract-about-block .theme-heading-sm {
+  margin-bottom: 27px;
+}
+
+.contract-about-block h2 {
+  margin-bottom: 105px;
+  max-width: 1388px;
+
+}
+
+.contact-solution-block {
+  background: url("../images/contract-solution.png") no-repeat center;
+  background-size: cover;
+  padding-top: 374px;
+  padding-bottom:  200px;
+}
+
+.contact-solution-block  .theme-heading-sm {
+  margin-bottom: 27px;
+}
+
+.contact-solution-block.overlay-full-img-block::before{
+  background: url("../images/gradiant-3.png") no-repeat center;
+  background-size: cover;
+}
+
+.contact-solution-block::after {
+  position: absolute;
+  content: "";
+  border-top: 1px solid #707070;
+  top: 223px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 1px;
+}
+
+.contact-solution-block {
+  display: flex;
+  align-items: center;
+}
+
+.contact-solution-block .theme-h2 {
+  margin-bottom: 40px;
+}
+
+.contact-solution-block .cust-ver-tabs-block {
+  max-width: 548px;
+}
+
+.cust-ver-tabs-block .nav-tabs .nav-link {
+  border: none;
+  border-radius: 0;
+  border: none;
+  border-right: 3px solid transparent;
+  display: block;
+  width: 100%;
+  padding: 27px 23px 27px 90px;
+  transition: background-color 400ms linear;
+  -moz-transition: background-color 400ms linear;
+  -o-transition: background-color 400ms linear;
+  -webkit-transition: background-color 400ms linear;
+}
+
+.cust-ver-tabs-block .arrow-round::before {
+  left: 22px;
+}
+
+.cust-ver-tabs-block .nav-tabs .nav-item.show .nav-link,
+.cust-ver-tabs-block .nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #071E3B;
+  border-right-color: #fff;
+}
+
+.cust-ver-tabs-block .nav-tabs {
+  border-bottom: none;
+}
+
+.cust-ver-tabs-block .nav-tabs a:first-child::after,
+.cust-ver-tabs-block .nav-tabs a:last-child::after { 
+  position: absolute;
+  content: "";
+  left: 22px;
+  width: 495px;
+  border: none;
+  height: 1px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 0;
+}
+
+.cust-ver-tabs-block .nav-tabs a:first-child::after {
+  top: -2px;
+}
+
+.cust-ver-tabs-block .nav-tabs a:last-child::after {
+  bottom: -2px;
+}
+
+.contact-solution-block .tab-content p{
+  font-size: 20px;
 }
