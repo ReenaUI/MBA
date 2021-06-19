@@ -1,19 +1,19 @@
 .theme-heading-sm {
   letter-spacing: 0px;
   color: rgba(255, 255, 255, 0.6);
-  opacity: 0.6;
   font-size: 18px;
   font-family: CeraPro;
-  font-weight: 600;
-  margin-bottom: 41px;
+  font-weight: 300;
+  margin-bottom: 19px;
   display: block;
+  text-transform: uppercase;
 }
 
 .theme-h2 {
   font-size: 56px;
   font-family: atypdisplay;
   line-height: 78px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .arrow-round {
@@ -97,6 +97,7 @@
 .overlay-full-img-block{
   position: relative;
 }
+
 .overlay-full-img-block::before {
   position: absolute;
   content: "";
@@ -123,4 +124,18 @@
 
 .bg-blue-dark {
   background: #071C39;
+}
+
+.grey-bg {
+  background: #20334D;
+}
+
+.common-two-cell-block {
+  padding-top: 87px;
+  padding-bottom: 116px;
+}
+
+.text-hightlight-blue {
+  color: #4BAAD0;
+  display: block;
 }

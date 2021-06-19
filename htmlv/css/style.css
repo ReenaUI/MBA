@@ -141,6 +141,10 @@ table {
 
 body {
   width: 100%;
+  font-family: CeraPro;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
 }
 
 ul {
@@ -190,7 +194,7 @@ h6 {
 h1 {
   font-size: 72px;
   line-height: 76px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h2 {
@@ -340,7 +344,7 @@ header .header-inner .logo-sec {
 }
 
 header .header-inner .header-right {
-  width: 49%;
+  width: 50%;
 }
 
 header .header-inner .header-right .header-menu {
@@ -426,8 +430,8 @@ header .header-inner .header-right .header-menu .menu-sec li:hover a {
   width: 57%;
 }
 
-.banner-list ul ,
-.arrow-lists ul{
+.banner-list ul,
+.arrow-lists ul {
   display: flex;
 }
 
@@ -444,8 +448,8 @@ header .header-inner .header-right .header-menu .menu-sec li:hover a {
   padding-right: 23px;
 }
 
-.banner-outer .banner-cont .banner-inner .banner-left .banner-list ,
-.arrow-lists{
+.banner-outer .banner-cont .banner-inner .banner-left .banner-list,
+.arrow-lists {
   margin-top: 13px;
 }
 
@@ -462,8 +466,8 @@ header .header-inner .header-right .header-menu .menu-sec li:hover a {
   .banner-list
   ul
   li
-  a::after ,
-  .arrow-lists ul li a::after{
+  a::after,
+.arrow-lists ul li a::after {
   position: absolute;
   content: "";
   right: 0;
@@ -483,12 +487,12 @@ header .header-inner .header-right .header-menu .menu-sec li:hover a {
   ul
   li
   a:hover::after,
-  .arrow-lists ul li a:hover::after {
+.arrow-lists ul li a:hover::after {
   right: -6px;
 }
 
-.banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a ,
-.arrow-lists ul li a{
+.banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a,
+.arrow-lists ul li a {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
@@ -507,7 +511,7 @@ header .header-inner .header-right .header-menu .menu-sec li:hover a {
   .banner-list
   ul
   li:last-child,
-  .arrow-lists ul li:last-child {
+.arrow-lists ul li:last-child {
   margin-right: 0px;
   padding: 0px;
   background: none;
@@ -1595,7 +1599,7 @@ header.mobile-header .header-inner .header-right .header-menu {
 .career-steps h3 {
   font-size: 28px;
   line-height: 36px;
-  font-weight: 600;
+  font-weight: 500;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -1820,27 +1824,24 @@ h2 cite {
   padding-bottom: 132px;
 }
 
-.about-contact-block {
+.common-CTA-block {
   padding-top: 260px;
   padding-bottom: 185px;
   background: #071c39;
   overflow: hidden;
   position: relative;
 }
-.about-contact-block .two-col-cell {
-  position: relative;
-  z-index: 2;
-}
+
 .cust-container {
   position: relative;
 }
-.about-contact-block h2 {
+.common-CTA-block h2 {
   margin-bottom: 39px;
   max-width: 628px;
 }
 
-.about-contact-block .cust-container::before,
-.about-contact-block .cust-container::after {
+.common-CTA-block .cust-container::before,
+.common-CTA-block .cust-container::after {
   position: absolute;
   content: "";
   border: 1px solid #ffffff;
@@ -1848,14 +1849,14 @@ h2 cite {
   border-radius: 50%;
 }
 
-.about-contact-block .cust-container::before {
+.common-CTA-block .cust-container::before {
   top: -800px;
   left: 79px;
   width: 1007px;
   height: 1007px;
 }
 
-.about-contact-block .cust-container::after {
+.common-CTA-block .cust-container::after {
   top: -300px;
   right: 0;
   bottom: 0;
@@ -1863,7 +1864,10 @@ h2 cite {
   width: 712px;
   height: 712px;
 }
-
+.common-CTA-block .two-col-cell {
+  position: relative;
+  z-index: 3;
+}
 .about-finacial-block {
   background: #20334d;
   padding-top: 177px;
@@ -1926,10 +1930,14 @@ h2 cite {
   background: url("../images/contract-banner.png") no-repeat center;
   background-size: cover;
 }
-.contract-banner .banner-cont .banner-inner .banner-left .banner-button {
+.contract-banner.banner-outer
+  .banner-cont
+  .banner-inner
+  .banner-left
+  .banner-button {
   margin-top: 56px;
 }
-.contract-banner .banner-cont .banner-inner .banner-left{
+.contract-banner.banner-outer .banner-cont .banner-inner .banner-left {
   width: 78.8%;
 }
 
@@ -1937,37 +1945,33 @@ h2 cite {
   margin-top: 67px;
 }
 
-.contract-about-block {
+.full-cell-block {
   padding-top: 131px;
 }
 
-.contract-about-block .theme-heading-sm {
+.full-cell-block .theme-heading-sm {
   margin-bottom: 27px;
 }
 
-.contract-about-block h2 {
+.full-cell-block h2 {
   margin-bottom: 105px;
   max-width: 1388px;
-
 }
 
-.contact-solution-block {
+.tab-section {
   background: url("../images/contract-solution.png") no-repeat center;
   background-size: cover;
   padding-top: 374px;
-  padding-bottom:  200px;
+  padding-bottom: 200px;
+  position: relative;
 }
 
-.contact-solution-block  .theme-heading-sm {
-  margin-bottom: 27px;
-}
-
-.contact-solution-block.overlay-full-img-block::before{
+.tab-section.overlay-full-img-block::before {
   background: url("../images/gradiant-3.png") no-repeat center;
   background-size: cover;
 }
 
-.contact-solution-block::after {
+.tab-section::after {
   position: absolute;
   content: "";
   border-top: 1px solid #707070;
@@ -1979,16 +1983,16 @@ h2 cite {
   height: 1px;
 }
 
-.contact-solution-block {
+.tab-section {
   display: flex;
   align-items: center;
 }
 
-.contact-solution-block .theme-h2 {
+.tab-section .theme-h2 {
   margin-bottom: 40px;
 }
 
-.contact-solution-block .cust-ver-tabs-block {
+.tab-section .cust-ver-tabs-block {
   max-width: 548px;
 }
 
@@ -2013,7 +2017,7 @@ h2 cite {
 .cust-ver-tabs-block .nav-tabs .nav-item.show .nav-link,
 .cust-ver-tabs-block .nav-tabs .nav-link.active {
   color: #495057;
-  background-color: #071E3B;
+  background-color: #071e3b;
   border-right-color: #fff;
 }
 
@@ -2022,7 +2026,7 @@ h2 cite {
 }
 
 .cust-ver-tabs-block .nav-tabs a:first-child::after,
-.cust-ver-tabs-block .nav-tabs a:last-child::after { 
+.cust-ver-tabs-block .nav-tabs a:last-child::after {
   position: absolute;
   content: "";
   left: 22px;
@@ -2041,6 +2045,130 @@ h2 cite {
   bottom: -2px;
 }
 
-.contact-solution-block .tab-content p{
+.tab-section .tab-content p {
   font-size: 20px;
+}
+
+.compliance-block {
+  padding-top: 100px;
+  padding-bottom: 185px;
+}
+
+/* vol-outsourced page */
+.vol-about-block {
+  border-bottom: 1px solid #707070;
+}
+
+.vol-about-block .two-col-cell .right-cell {
+  margin-top: 11px;
+}
+
+.vol-about-block .left-cell h2{
+  max-width: 718px;
+}
+
+.vol-about-block.common-two-cell-block {
+  padding-bottom: 223px;
+  padding-top: 119px;
+}
+
+.vol-statement-block {
+  padding-top: 170px;
+  padding-bottom: 155px;
+}
+
+.vol-statement-block.common-two-cell-block {
+  padding-top: 141px;
+  padding-bottom: 146px;
+}
+
+.vol-statement-block::after {
+  display: none;
+}
+
+.vol-statement-block h2 {
+  margin-bottom: 102px;
+}
+
+.vol-statementwork-block::after {
+  display: none;
+}
+
+.vol-statementwork-block.common-two-cell-block {
+  padding-top: 257px;
+  background: url("../images/statement-work.png") no-repeat center;
+  background-size: cover;
+  padding-bottom: 136px;
+}
+
+.vol-statementwork-block .two-col-cell:first-of-type p {
+  margin-top: 8px;
+}
+
+.vol-statementwork-block .two-col-cell:first-of-type {
+  margin-bottom: 39px;
+}
+
+.vol-statementwork-block .two-col-cell .right-cell {
+  margin-right: 12px;
+}
+
+/* candi-seeker */
+.candi-seeker-banner {
+  background: url("../images/candidate-seeker-banner.png") no-repeat center;
+  background-size: cover;
+}
+.candi-about-block {
+  padding-bottom: 225px;
+  padding-top: 202px;
+}
+
+.candi-about-block h2 {
+  max-width: 1488px;
+}
+
+.common-QA-block {
+  padding-top: 177px;
+  padding-bottom: 177px;
+}
+
+.common-QA-block h2 {
+  margin-bottom: 110px;
+}
+
+.QA-block-row {
+  max-width: 1279px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.QA-block-row .QA-block-cell {
+  width: 46.5%;
+  color: #fff;
+}
+
+.QA-block-row .QA-block-cell span {
+  display: block;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 29px 20px 28px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.QA-block-row .QA-block-cell .QA-dark {
+  background: #071E3B;
+  border-color: rgba(255, 255, 255, 0.10);
+}
+
+.QA-block-row .QA-block-cell span:first-of-type {
+  border-color: rgba(255, 255, 255, 0.10);
+}
+
+.candi-seeker-QA {
+  padding-top: 175px;
+}
+
+.candi-seeker-QA .two-col-cell p {
+  margin-bottom: 55px;
 }

@@ -103,9 +103,62 @@
   .career-success-block .theme-h2 {
     margin-bottom: 80px;
   }
+
+  /* contract-perms page */
+  .round-shape::before {
+    bottom: -10px;
+  }
+  .cust-ver-tabs-block .nav-tabs .nav-link {
+    padding: 21px 23px 21px 90px;
+  }
+  .contract-banner .banner-cont .banner-inner .banner-left .arrow-lists {
+    margin-top: 47px;
+  }
+  .full-cell-block h2 {
+    margin-bottom: 75px;
+  }
+  .tab-section::after {
+    top: 203px;
+  }
+  .tab-section {
+    padding-top: 284px;
+    padding-bottom: 100px;
+  }
+  .tab-section::after {
+    top: 173px;
+  }
+  .full-cell-block h2 {
+    max-width: 1278px;
+  }
+  .tab-section .tab-content p {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .inner-pages-banner .banner-cont .banner-inner .banner-left p {
+    padding-top: 31px;
+  }
+
+  /* candi-seeker*/
+  .candi-about-block {
+    padding-bottom: 165px;
+    padding-top: 142px;
+  }
+  .common-QA-block {
+    padding-top: 167px;
+    padding-bottom: 167px;
+  }
+
+  .candi-seeker-QA {
+    padding-top: 165px;
+    padding-bottom: 165px;
+  }
 }
 
 @media (min-width: 1440px) and (max-width: 1600px) {
+  body {
+    font-size: 22px;
+    line-height: 32px;
+  }
   .about-sec .about-inner .about-heading h2::before {
     width: 202px;
     left: -32px;
@@ -422,7 +475,7 @@
     padding-bottom: 75px;
     padding-top: 132px;
   }
-  .about-contact-block {
+  .common-CTA-block {
     padding-top: 190px;
     padding-bottom: 185px;
   }
@@ -440,7 +493,7 @@
     padding-top: 129px;
     padding-bottom: 153px;
   }
-  .about-contact-block h2 {
+  .common-CTA-block h2 {
     max-width: 418px;
   }
   .about-finacial-block .testimonial-head {
@@ -456,9 +509,90 @@
     font-size: 22px;
     line-height: 32px;
   }
+  /* contract-perms page */
+  .round-shape::before {
+    bottom: -10px;
+  }
+  .cust-ver-tabs-block .nav-tabs .nav-link {
+    padding: 21px 23px 21px 90px;
+  }
+  .contract-banner .banner-cont .banner-inner .banner-left .arrow-lists {
+    margin-top: 47px;
+  }
+  .full-cell-block h2 {
+    margin-bottom: 64px;
+  }
+  .tab-section::after {
+    top: 203px;
+  }
+  .tab-section {
+    padding-top: 244px;
+    padding-bottom: 100px;
+  }
+  .tab-section::after {
+    top: 133px;
+  }
+  .full-cell-block h2 {
+    max-width: 1278px;
+  }
+  .tab-section .tab-content p {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  .compliance-block {
+    padding-top: 70px;
+    padding-bottom: 90px;
+  }
+
+  /* vol-outsource */
+  .vol-about-block.common-two-cell-block {
+    padding-bottom: 135px;
+  }
+  .vol-statement-block h2 {
+    margin-bottom: 72px;
+  }
+  section.tab-section.vol-statement-block {
+    padding-top: 164px;
+  }
+  .vol-statementwork-block.common-two-cell-block {
+    padding-top: 167px;
+  }
+  .vol-statementwork-block .two-col-cell:first-of-type {
+    margin-bottom: 29px;
+  }
+  /* candi-seeker*/
+  .candi-about-block {
+    padding-bottom: 155px;
+    padding-top: 132px;
+  }
+  .common-QA-block {
+    padding-top: 157px;
+    padding-bottom: 157px;
+  }
+  .common-QA-block h2 {
+    margin-bottom: 65px;
+  }
+  .candi-seeker-QA {
+    padding-top: 155px;
+    padding-bottom: 155px;
+  }
+  .common-CTA-block .cust-container::after {
+    width: 582px;
+    height: 582px;
+    top: -250px;
+  }
+  .common-CTA-block .cust-container::before {
+    top: -570px;
+    width: 857px;
+    height: 857px;
+  }
 }
 
 @media (min-width: 1366px) and (max-width: 1439px) {
+  body {
+    font-size: 17px;
+    line-height: 27px;
+  }
   .about-sec .about-inner .about-heading h2::before {
     width: 202px;
     left: -32px;
@@ -484,8 +618,8 @@
     top: 33px;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li ,
-  .arrow-lists ul li{
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li,
+  .arrow-lists ul li {
     margin-right: 10px;
     padding-right: 10px;
   }
@@ -877,16 +1011,16 @@
     padding-top: 112px;
     background-size: 84%;
   }
-  .about-contact-block {
+  .common-CTA-block {
     padding-top: 160px;
     padding-bottom: 185px;
   }
-  .about-contact-block .cust-container::after {
+  .common-CTA-block .cust-container::after {
     top: -300px;
     width: 582px;
     height: 582px;
   }
-  .about-contact-block .cust-container::before {
+  .common-CTA-block .cust-container::before {
     top: -700px;
     width: 867px;
     height: 867px;
@@ -906,8 +1040,8 @@
     padding-top: 129px;
     padding-bottom: 113px;
   }
-  .about-contact-block h2 {
-    max-width: 50%;
+  .common-CTA-block h2 {
+    max-width: 400px;
   }
   .about-finacial-block .testimonial-head {
     margin-bottom: 48px;
@@ -922,9 +1056,138 @@
     font-size: 17px;
     line-height: 27px;
   }
+  /* contract-perms page */
+  .round-shape::before {
+    bottom: -10px;
+  }
+  .cust-ver-tabs-block .nav-tabs .nav-link {
+    padding: 18px 23px 18px 90px;
+  }
+  .contract-banner .banner-cont .banner-inner .banner-left .arrow-lists {
+    margin-top: 37px;
+  }
+  .contract-banner.banner-outer
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .banner-button {
+    margin-top: 37px;
+  }
+  .tab-section .tab-content p {
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .full-cell-block h2 {
+    margin-bottom: 55px;
+  }
+  .tab-section::after {
+    top: 203px;
+  }
+  .tab-section {
+    padding-top: 244px;
+    padding-bottom: 100px;
+  }
+  .tab-section::after {
+    top: 133px;
+  }
+  .full-cell-block h2 {
+    max-width: 978px;
+  }
+  .tab-section .theme-h2 {
+    margin-bottom: 30px;
+  }
+  .tab-section .cust-ver-tabs-block {
+    max-width: 498px;
+  }
+  .cust-ver-tabs-block .nav-tabs a:first-child::after,
+  .cust-ver-tabs-block .nav-tabs a:last-child::after {
+    max-width: 476px;
+  }
+  .full-cell-block {
+    padding-top: 71px;
+  }
+  .compliance-block {
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+
+  /* vol-outsource */
+  .vol-about-block.common-two-cell-block {
+    padding-bottom: 115px;
+    padding-top: 79px;
+  }
+  .vol-statement-block h2 {
+    margin-bottom: 52px;
+  }
+  section.tab-section.vol-statement-block {
+    padding-top: 114px;
+  }
+  .vol-statementwork-block.common-two-cell-block {
+    padding-top: 127px;
+    padding-bottom: 126px;
+  }
+  .vol-statementwork-block .two-col-cell:first-of-type {
+    margin-bottom: 29px;
+  }
+  .vol-statement-block.common-two-cell-block {
+    padding-top: 111px;
+    padding-bottom: 111px;
+  }
+  .common-CTA-block .cust-container::after {
+    width: 582px;
+    height: 582px;
+    top: -250px;
+  }
+  .common-CTA-block .cust-container::before {
+    top: -570px;
+    width: 857px;
+    height: 857px;
+  }
+  /* candi-seeker*/
+  .candi-about-block {
+    padding-bottom: 125px;
+    padding-top: 112px;
+  }
+  .common-QA-block {
+    padding-top: 127px;
+    padding-bottom: 127px;
+  }
+  .candi-seeker-QA {
+    padding-top: 125px;
+    padding-bottom: 125px;
+  }
+  .common-CTA-block .cust-container::after {
+    width: 582px;
+    height: 582px;
+    top: -250px;
+  }
+  .common-CTA-block .cust-container::before {
+    top: -570px;
+    width: 857px;
+    height: 857px;
+  }
+  .common-QA-block h2 {
+    margin-bottom: 55px;
+  }
+  .QA-block-row .QA-block-cell span {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 15px 17px 16px;
+  }
+  .QA-block-row {
+    max-width: 1079px;
+  }
+  .candi-seeker-QA .two-col-cell p {
+    margin-bottom: 45px;
+  }
 }
 
 @media (min-width: 1280px) and (max-width: 1365px) {
+  body {
+    font-size: 17px;
+    line-height: 27px;
+  }
+
   .about-sec .about-inner .about-heading h2::before {
     width: 202px;
     left: -32px;
@@ -1180,7 +1443,7 @@
     margin-bottom: 31px;
   }
   .inner-pages-banner .banner-content {
-    padding-left: 158px;
+    padding-left: 128px;
   }
   .career-block .career-top {
     padding-bottom: 70px;
@@ -1352,18 +1615,18 @@
     padding-top: 92px;
     background-size: 84%;
   }
-  .about-contact-block {
+  .common-CTA-block {
     padding-top: 100px;
     padding-bottom: 135px;
   }
-  .about-contact-block .cust-container::after {
+  .common-CTA-block .cust-container::after {
     top: -290px;
     width: 412px;
     height: 412px;
     right: 120px;
     bottom: 0px;
   }
-  .about-contact-block .cust-container::before {
+  .common-CTA-block .cust-container::before {
     top: -460px;
     width: 657px;
     height: 657px;
@@ -1383,8 +1646,8 @@
     padding-top: 129px;
     padding-bottom: 113px;
   }
-  .about-contact-block h2 {
-    max-width: 338px;
+  .common-CTA-block h2 {
+    max-width: 368px;
   }
   .about-finacial-block .testimonial-head {
     margin-bottom: 28px;
@@ -1413,9 +1676,141 @@
     font-size: 17px;
     line-height: 27px;
   }
+  /* contract-perms page */
+  .round-shape::before {
+    bottom: -10px;
+  }
+  .cust-ver-tabs-block .nav-tabs .nav-link {
+    padding: 11px 23px 9px 80px;
+  }
+  .cust-ver-tabs-block .nav-tabs .arrow-round span {
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .contract-banner .banner-cont .banner-inner .banner-left .arrow-lists {
+    margin-top: 27px;
+  }
+  .contract-banner.banner-outer
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .banner-button {
+    margin-top: 37px;
+  }
+  .tab-section .tab-content p {
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .full-cell-block h2 {
+    margin-bottom: 55px;
+  }
+  .tab-section::after {
+    top: 203px;
+  }
+  .tab-section {
+    padding-top: 164px;
+    padding-bottom: 100px;
+  }
+  .tab-section::after {
+    top: 93px;
+  }
+  .full-cell-block h2 {
+    max-width: 978px;
+  }
+  .tab-section .theme-h2 {
+    margin-bottom: 30px;
+  }
+  .tab-section .cust-ver-tabs-block {
+    max-width: 408px;
+  }
+  .cust-ver-tabs-block .nav-tabs a:first-child::after,
+  .cust-ver-tabs-block .nav-tabs a:last-child::after {
+    max-width: 379px;
+    left: 28px;
+  }
+
+  .tab-section .theme-heading-sm {
+    margin-bottom: 18px;
+  }
+
+  .cust-ver-tabs-block .nav-tabs a {
+    line-height: 41px;
+  }
+  .full-cell-block {
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+  .compliance-block {
+    padding-top: 0;
+    padding-bottom: 80px;
+  }
+
+  /* vol-outsource */
+  .vol-about-block.common-two-cell-block {
+    padding-bottom: 115px;
+    padding-top: 79px;
+  }
+  .vol-statement-block h2 {
+    margin-bottom: 42px;
+  }
+  section.tab-section.vol-statement-block {
+    padding-top: 114px;
+  }
+  .vol-statementwork-block.common-two-cell-block {
+    padding-top: 127px;
+    padding-bottom: 126px;
+  }
+  .vol-statementwork-block .two-col-cell:first-of-type {
+    margin-bottom: 29px;
+  }
+  .vol-statement-block.common-two-cell-block {
+    padding-top: 111px;
+    padding-bottom: 111px;
+  }
+  /* candi-seeker*/
+  .candi-about-block {
+    padding-bottom: 95px;
+    padding-top: 102px;
+  }
+  .common-QA-block {
+    padding-top: 117px;
+    padding-bottom: 117px;
+  }
+  .candi-seeker-QA {
+    padding-top: 115px;
+    padding-bottom: 115px;
+  }
+  .common-CTA-block .cust-container::after {
+    width: 442px;
+    height: 442px;
+    top: -271px;
+  }
+  .common-CTA-block .cust-container::before {
+    top: -550px;
+    width: 757px;
+    height: 757px;
+  }
+  .common-QA-block h2 {
+    margin-bottom: 55px;
+  }
+  .QA-block-row .QA-block-cell span {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 15px 17px 16px;
+  }
+  .QA-block-row {
+    max-width: 1079px;
+  }
+  .candi-seeker-QA .two-col-cell p {
+    margin-bottom: 45px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1279px) {
+  body {
+    font-size: 17px;
+    line-height: 27px;
+  }
   .about-sec .about-inner .about-heading h2::before {
     width: 202px;
     left: -32px;
@@ -1446,8 +1841,8 @@
     width: 45px;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li ,
-  .arrow-lists ul li{
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li,
+  .arrow-lists ul li {
     margin-right: 10px;
     padding-right: 10px;
     margin-bottom: 15px;
@@ -1912,18 +2307,18 @@
     padding-top: 92px;
     background-size: 84%;
   }
-  .about-contact-block {
+  .common-CTA-block {
     padding-top: 100px;
     padding-bottom: 135px;
   }
-  .about-contact-block .cust-container::after {
+  .common-CTA-block .cust-container::after {
     top: -290px;
     width: 362px;
     height: 362px;
     right: 30px;
     bottom: 0px;
   }
-  .about-contact-block .cust-container::before {
+  .common-CTA-block .cust-container::before {
     top: -460px;
     width: 657px;
     height: 657px;
@@ -1943,7 +2338,7 @@
     padding-top: 129px;
     padding-bottom: 113px;
   }
-  .about-contact-block h2 {
+  .common-CTA-block h2 {
     max-width: 338px;
   }
   .about-finacial-block .testimonial-head {
@@ -1973,9 +2368,144 @@
     font-size: 17px;
     line-height: 27px;
   }
+  /* contract-perms page */
+  .round-shape::before {
+    bottom: -10px;
+  }
+  .cust-ver-tabs-block .nav-tabs .nav-link {
+    padding: 11px 23px 11px 80px;
+  }
+  .cust-ver-tabs-block .nav-tabs .arrow-round span {
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .contract-banner .banner-cont .banner-inner .banner-left .arrow-lists {
+    margin-top: 27px;
+  }
+  .contract-banner.banner-outer
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .banner-button {
+    margin-top: 37px;
+  }
+  .tab-section .tab-content p {
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .full-cell-block h2 {
+    margin-bottom: 45px;
+  }
+  .tab-section::after {
+    top: 203px;
+  }
+  .tab-section {
+    padding-top: 144px;
+    padding-bottom: 80px;
+  }
+  .tab-section::after {
+    top: 63px;
+  }
+  .full-cell-block h2 {
+    max-width: 838px;
+  }
+  .tab-section .theme-h2 {
+    margin-bottom: 30px;
+  }
+  .tab-section .cust-ver-tabs-block {
+    max-width: 408px;
+  }
+  .cust-ver-tabs-block .nav-tabs a:first-child::after,
+  .cust-ver-tabs-block .nav-tabs a:last-child::after {
+    max-width: 378px;
+    left: 28px;
+  }
+
+  .tab-section .theme-heading-sm {
+    margin-bottom: 18px;
+  }
+
+  .cust-ver-tabs-block .nav-tabs a {
+    line-height: 41px;
+  }
+  .full-cell-block {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .compliance-block {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  .compliance-block img {
+    min-height: 327px;
+    object-fit: cover;
+  }
+  /* vol-outsource */
+  .vol-about-block.common-two-cell-block {
+    padding-bottom: 115px;
+    padding-top: 79px;
+  }
+  .vol-statement-block h2 {
+    margin-bottom: 42px;
+  }
+  section.tab-section.vol-statement-block {
+    padding-top: 114px;
+  }
+  .vol-statementwork-block.common-two-cell-block {
+    padding-top: 127px;
+    padding-bottom: 126px;
+  }
+  .vol-statementwork-block .two-col-cell:first-of-type {
+    margin-bottom: 29px;
+  }
+  .vol-statement-block.common-two-cell-block {
+    padding-top: 111px;
+    padding-bottom: 111px;
+  }
+  /* candi-seeker*/
+  .candi-about-block {
+    padding-bottom: 95px;
+    padding-top: 102px;
+  }
+  .common-QA-block {
+    padding-top: 117px;
+    padding-bottom: 117px;
+  }
+  .candi-seeker-QA {
+    padding-top: 115px;
+    padding-bottom: 75px;
+  }
+  .common-CTA-block .cust-container::after {
+    width: 442px;
+    height: 442px;
+    top: -271px;
+  }
+  .common-CTA-block .cust-container::before {
+    top: -340px;
+    width: 577px;
+    height: 577px;
+  }
+  .common-QA-block h2 {
+    margin-bottom: 55px;
+  }
+  .QA-block-row .QA-block-cell span {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 11px 16px 12px;
+  }
+  .QA-block-row {
+    max-width: 1079px;
+  }
+  .candi-seeker-QA .two-col-cell p {
+    margin-bottom: 45px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 17px;
+    line-height: 27px;
+  }
   .about-sec .about-inner .about-heading h2::before {
     width: 202px;
     left: -32px;
@@ -2258,7 +2788,7 @@
     width: 43.3%;
   }
 
-  .banner-list ul ,
+  .banner-list ul,
   .arrow-lists ul {
     flex-wrap: wrap;
   }
@@ -2281,7 +2811,7 @@
 
   .banner-outer .cust-container {
     max-width: inherit;
-    padding: 0px 50px;
+    padding: 0px 40px;
   }
 
   .testi-sec .testi-heading h2::before {
@@ -2296,8 +2826,8 @@
     flex-direction: column;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li ,
-  .arrow-lists ul li{
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li,
+  .arrow-lists ul li {
     margin-right: 10px;
     padding-right: 10px;
   }
@@ -2751,7 +3281,7 @@
   .two-col-cell .left-cell {
     max-width: inherit;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   .two-col-cell .right-cell {
     max-width: inherit;
@@ -2931,18 +3461,18 @@
     padding-top: 92px;
     background-size: 84%;
   }
-  .about-contact-block {
+  .common-CTA-block {
     padding-top: 80px;
     padding-bottom: 35px;
   }
-  .about-contact-block .cust-container::after {
+  .common-CTA-block .cust-container::after {
     top: -302px;
     width: 272px;
     height: 272px;
     right: 30px;
     bottom: 0px;
   }
-  .about-contact-block .cust-container::before {
+  .common-CTA-block .cust-container::before {
     top: -310px;
     width: 497px;
     height: 497px;
@@ -2962,8 +3492,9 @@
     padding-top: 59px;
     padding-bottom: 93px;
   }
-  .about-contact-block h2 {
+  .common-CTA-block h2 {
     max-width: 338px;
+    margin-bottom: 29px;
   }
   .about-finacial-block .testimonial-head {
     margin-bottom: 28px;
@@ -3003,9 +3534,171 @@
   .about-finacial-block .right-cell {
     justify-content: flex-start;
   }
+  /* contract-perms page */
+  .round-shape::before {
+    bottom: -10px;
+  }
+  .cust-ver-tabs-block .nav-tabs .nav-link {
+    padding: 11px 23px 11px 80px;
+  }
+  .cust-ver-tabs-block .nav-tabs .arrow-round span {
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .contract-banner .banner-cont .banner-inner .banner-left .arrow-lists {
+    margin-top: 27px;
+  }
+  .contract-banner.banner-outer
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .banner-button {
+    margin-top: 25px;
+  }
+  .tab-section .tab-content p {
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .full-cell-block h2 {
+    margin-bottom: 45px;
+  }
+  .tab-section::after {
+    top: 203px;
+  }
+  .tab-section {
+    padding-top: 134px;
+    padding-bottom: 20px;
+  }
+  .tab-section::after {
+    top: 63px;
+  }
+  .full-cell-block h2 {
+    max-width: 838px;
+  }
+  .tab-section .theme-h2 {
+    margin-bottom: 30px;
+  }
+  .tab-section .cust-ver-tabs-block {
+    max-width: 408px;
+  }
+  .cust-ver-tabs-block .nav-tabs a:first-child::after,
+  .cust-ver-tabs-block .nav-tabs a:last-child::after {
+    max-width: 378px;
+    left: 28px;
+  }
+
+  .tab-section .theme-heading-sm {
+    margin-bottom: 18px;
+  }
+
+  .cust-ver-tabs-block .nav-tabs a {
+    line-height: 41px;
+  }
+  .full-cell-block {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .contract-banner.banner-outer .banner-cont .banner-inner .banner-left {
+    width: 100%;
+  }
+  .full-cell-block .two-col-cell .left-cell {
+    margin-bottom: 0;
+  }
+  section.banner-outer.inner-pages-banner.contract-banner {
+    padding-bottom: 60px;
+  }
+  .compliance-block {
+    padding-top: 40px;
+    padding-bottom: 70px;
+  }
+  .compliance-block img {
+    min-height: 327px;
+    object-fit: cover;
+  }
+  /* vol-outsource */
+  .vol-about-block.common-two-cell-block {
+    padding-bottom: 80px;
+    padding-top: 29px;
+  }
+  .vol-statement-block h2 {
+    margin-bottom: 24px;
+  }
+  section.tab-section.vol-statement-block {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  section.tab-section.vol-statement-block .two-col-cell .right-cell {
+    margin-top: 30px;
+  }
+  .vol-statementwork-block .two-col-cell:first-of-type {
+    margin-bottom: 29px;
+  }
+  .vol-statement-block.common-two-cell-block,
+  .vol-statementwork-block.common-two-cell-block {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .vol-statement-block .two-col-cell .left-cell {
+    margin-bottom: 0;
+  }
+
+  .vol-statementwork-block .two-col-cell .left-cell,
+  .vol-statementwork-block .two-col-cell:first-of-type {
+    margin-bottom: 0;
+  }
+
+  .vol-statementwork-block .two-col-cell:first-of-type .left-cell {
+    margin-bottom: 20px;
+  }
+
+  .vol-statementwork-block.common-two-cell-block {
+    padding-bottom: 50px;
+  }
+   /* candi-seeker*/
+   .candi-about-block {
+    padding-bottom: 95px;
+    padding-top: 92px;
+  }
+  .common-QA-block {
+    padding-top: 87px;
+    padding-bottom: 87px;
+  }
+  .candi-seeker-QA {
+    padding-top: 85px;
+    padding-bottom: 65px;
+  }
+  .common-CTA-block .cust-container::after {
+    width: 302px;
+    height: 302px;
+    top: -341px;
+  }
+  .common-CTA-block .cust-container::before {
+    top: -313px;
+    width: 447px;
+    height: 447px;
+  }
+  .common-QA-block h2 {
+    margin-bottom: 55px;
+  }
+  .QA-block-row .QA-block-cell span {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 11px 16px 12px;
+  }
+  .QA-block-row {
+    max-width: 1079px;
+  }
+  .candi-seeker-QA .two-col-cell p {
+    margin-bottom: 35px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  body {
+    font-size: 17px;
+    line-height: 27px;
+  }
+
   .banner-outer .banner-cont {
     padding-top: 120px;
   }
@@ -3300,7 +3993,7 @@
     width: 43.3%;
   }
 
-  .banner-list ul ,
+  .banner-list ul,
   .arrow-lists ul {
     flex-wrap: wrap;
   }
@@ -3351,8 +4044,8 @@
     left: 15%;
   }
 
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a ,
-  .arrow-lists ul li a{
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-list ul li a,
+  .arrow-lists ul li a {
     font-size: 15px;
   }
 
@@ -3954,7 +4647,7 @@
     padding-bottom: 200px;
   }
   .theme-heading-sm {
-    margin-bottom: 31px;
+    margin-bottom: 15px;
   }
   .inner-pages-banner .banner-content {
     padding-left: 108px;
@@ -4000,10 +4693,11 @@
   .theme-heading-sm {
     margin-bottom: 9px;
     font-size: 15px;
+    line-height: 25px;
   }
   .theme-h2 {
-    font-size: 31px;
-    line-height: 41px;
+    font-size: 35px;
+    line-height: 45px;
   }
   .career-culture-block h2 {
     margin-bottom: 35px;
@@ -4225,18 +4919,18 @@
     background-size: 100%;
     background-position: center 98%;
   }
-  .about-contact-block {
+  .common-CTA-block {
     padding-top: 60px;
     padding-bottom: 5px;
   }
-  .about-contact-block .cust-container::after {
+  .common-CTA-block .cust-container::after {
     top: -302px;
     width: 182px;
     height: 182px;
     right: -70px;
     bottom: 0px;
   }
-  .about-contact-block .cust-container::before {
+  .common-CTA-block .cust-container::before {
     top: -170px;
     width: 267px;
     height: 267px;
@@ -4260,8 +4954,8 @@
     padding-top: 39px;
     padding-bottom: 63px;
   }
-  .about-contact-block h2 {
-    margin-bottom: 29px;
+  .common-CTA-block h2 {
+    margin-bottom: 26px;
     max-width: 338px;
   }
   .about-finacial-block .testimonial-head {
@@ -4307,6 +5001,226 @@
   .two-btn-wrap .custom-button:first-child {
     margin-right: 20px;
   }
+  /* contract-perms page */
+  .round-shape::before {
+    bottom: -10px;
+  }
+  .cust-ver-tabs-block .nav-tabs .nav-link {
+    padding: 3px 14px 6px;
+  }
+  .cust-ver-tabs-block .nav-tabs .arrow-round span {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .contract-banner .banner-cont .banner-inner .banner-left .arrow-lists {
+    margin-top: 27px;
+  }
+  .contract-banner.banner-outer
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .banner-button {
+    margin-top: 25px;
+  }
+  .tab-section .tab-content p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .full-cell-block h2 {
+    margin-bottom: 45px;
+  }
+  .tab-section::after {
+    top: 203px;
+  }
+  .tab-section {
+    padding-top: 134px;
+    padding-bottom: 0;
+  }
+  .tab-section::after {
+    top: 63px;
+  }
+  .full-cell-block h2 {
+    max-width: 838px;
+  }
+  .tab-section .theme-h2 {
+    margin-bottom: 30px;
+  }
+  .tab-section .cust-ver-tabs-block {
+    max-width: 100%;
+  }
+  .cust-ver-tabs-block .nav-tabs a:first-child::after,
+  .cust-ver-tabs-block .nav-tabs a:last-child::after {
+    max-width: 100%;
+    left: 0;
+  }
+
+  .tab-section .theme-heading-sm {
+    margin-bottom: 27px;
+  }
+
+  .cust-ver-tabs-block .nav-tabs a {
+    line-height: 41px;
+  }
+  .full-cell-block {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .contract-banner.banner-outer .banner-cont .banner-inner .banner-left {
+    width: 100%;
+  }
+  .full-cell-block .two-col-cell .left-cell {
+    margin-bottom: 0;
+  }
+  section.banner-outer.inner-pages-banner.contract-banner {
+    padding-bottom: 60px;
+  }
+
+  .contract-banner.banner-outer
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .banner-list
+    ul {
+    display: flex;
+  }
+  .contract-banner.banner-outer
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .banner-list
+    ul
+    li {
+    display: block;
+    background: none;
+    max-width: initial;
+    width: auto;
+    padding-right: 0;
+  }
+
+  .contract-banner.banner-outer
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .banner-list
+    ul
+    li
+    a {
+    padding-right: 30px;
+    display: block;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .contract-banner.banner-outer
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .banner-list
+    ul
+    li
+    a::after {
+    bottom: auto;
+    top: 6px;
+  }
+  .full-cell-block .theme-heading-sm,
+  .tab-section .theme-heading-sm {
+    margin-bottom: 15px;
+  }
+  .compliance-block {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  .compliance-block img {
+    min-height: 327px;
+    object-fit: cover;
+  }
+  /* vol-outsource */
+  .vol-about-block.common-two-cell-block {
+    padding-bottom: 80px;
+    padding-top: 29px;
+  }
+  .vol-statement-block h2 {
+    margin-bottom: 24px;
+  }
+  section.tab-section.vol-statement-block {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  section.tab-section.vol-statement-block .two-col-cell .right-cell {
+    margin-top: 30px;
+  }
+  .vol-statementwork-block .two-col-cell:first-of-type {
+    margin-bottom: 29px;
+  }
+  .vol-statement-block.common-two-cell-block,
+  .vol-statementwork-block.common-two-cell-block {
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+  .vol-statement-block .two-col-cell .left-cell {
+    margin-bottom: 0;
+  }
+
+  .vol-statementwork-block .two-col-cell .left-cell,
+  .vol-statementwork-block .two-col-cell:first-of-type {
+    margin-bottom: 0;
+  }
+
+  .vol-statementwork-block .two-col-cell:first-of-type .left-cell {
+    margin-bottom: 20px;
+  }
+
+  .vol-statementwork-block.common-two-cell-block {
+    padding-bottom: 10px;
+  }
+
+    /* candi-seeker*/
+    .candi-about-block {
+      padding-bottom: 65px;
+      padding-top: 42px;
+    }
+    .common-QA-block {
+      padding-top: 67px;
+      padding-bottom: 87px;
+    }
+    .candi-seeker-QA {
+      padding-top: 65px;
+      padding-bottom: 5px;
+    }
+    .common-CTA-block .cust-container::after {
+      width: 192px;
+      height: 192px;
+      top: -431px;
+      left: auto;
+      right: 20px;
+    }
+    .common-CTA-block .cust-container::before {
+      top: -153px;
+      width: 227px;
+      height: 227px;
+      left: 20px;
+      right: auto;
+    }
+    .common-QA-block h2 {
+      margin-bottom: 45px;
+    }
+    .QA-block-row .QA-block-cell span {
+      font-size: 16px;
+      line-height: 26px;
+      padding: 11px 16px 12px;
+    }
+    .QA-block-row {
+      max-width: 1079px;
+      flex-direction: column;
+    }
+    .QA-block-row .QA-block-cell {
+      width: 100%;
+    }
+    .candi-seeker-QA .two-col-cell p {
+      margin-bottom: 30px;
+    }
+    .banner-outer .banner-cont .banner-inner .banner-left .banner-button.two-btn-wrap {
+      display: flex;
+    }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .inner-pages-banner::before {
@@ -4345,6 +5259,7 @@
     .two-btn-wrap.custom-button:first-child {
     margin-right: 0;
   }
+
 }
 
 @media (min-width: 320px) and (max-width: 374px) {
@@ -4378,5 +5293,37 @@
 
   .desktop-menu .desktop-menu-top {
     height: 327px;
+  }
+  .contract-banner.banner-outer
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .banner-list
+    ul
+    li
+    a {
+    width: 191px;
+  }
+
+  .vol-outs-banner.banner-outer
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .banner-list
+    ul
+    li
+    a {
+    width: 100%;
+    max-width: 280px;
+  }
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-button.two-btn-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .banner-outer .banner-cont .banner-inner .banner-left .banner-button.two-btn-wrap .custom-button {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 0;
+    width: 100%;
   }
 }
