@@ -427,7 +427,7 @@ header .header-inner .header-right .header-menu .menu-sec li:hover a {
 
 .banner-outer .banner-cont .banner-inner .banner-left {
   padding-top: 4%;
-  width: 57%;
+  width: 58%;
 }
 
 .banner-list ul,
@@ -2001,7 +2001,7 @@ h2 cite {
 
 .tab-section .left-cell {
   width: 45%;
-} 
+}
 
 .cust-ver-tabs-block .nav-tabs .nav-link {
   border: none;
@@ -2070,7 +2070,7 @@ h2 cite {
   margin-top: 11px;
 }
 
-.vol-about-block .left-cell h2{
+.vol-about-block .left-cell h2 {
   max-width: 718px;
 }
 
@@ -2164,12 +2164,12 @@ h2 cite {
 }
 
 .QA-block-row .QA-block-cell .QA-dark {
-  background: #071E3B;
-  border-color: rgba(255, 255, 255, 0.10);
+  background: #071e3b;
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 .QA-block-row .QA-block-cell span:first-of-type {
-  border-color: rgba(255, 255, 255, 0.10);
+  border-top-color: rgba(255, 255, 255, 0.2);
 }
 
 .candi-seeker-QA {
@@ -2204,7 +2204,7 @@ h2 cite {
   margin-bottom: 60px;
 }
 
-.ict-tabs-block .disc-feature-list ul{
+.ict-tabs-block .disc-feature-list ul {
   width: 44.8%;
 }
 
@@ -2219,11 +2219,22 @@ h2 cite {
 .itc-QA-block {
   background: url("../images/itc-QA.png") no-repeat center;
   background-size: cover;
+}
+
+.common-QA-block .overlay-full-img-block {
   padding-top: 250px;
   padding-bottom: 188px;
 }
 
-.itc-QA-block .QA-block-cell .QA-dark {
-  background: rgba(7, 28, 57, 0.5);
+.common-QA-block.overlay-full-img-block .QA-block-cell .QA-dark {
+  background: rgba(7, 30, 59, 0.5);
 }
 
+.lifscience-about-block .QA-block-cell span:last-child {
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
+.lifescience-QA-block {
+  background: url("../images/lifescience-about.png") no-repeat center;
+  background-size: cover;
+}

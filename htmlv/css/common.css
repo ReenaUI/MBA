@@ -65,7 +65,7 @@
 
 .outline-btn {
   background: transparent;
-  border: 1px solid #4BAAD0;
+  border: 1px solid #4baad0;
 }
 .outline-btn:hover {
   background: #4baad0;
@@ -89,12 +89,12 @@
   margin-left: -139px;
   width: 278px;
   height: 74px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   opacity: 0.2;
   border-radius: 50%;
 }
 
-.overlay-full-img-block{
+.overlay-full-img-block {
   position: relative;
 }
 
@@ -109,7 +109,7 @@
   width: 100%;
   height: 100%;
   background: url("../images/gradient2.png") no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .paragraph-bold {
@@ -123,11 +123,11 @@
 }
 
 .bg-blue-dark {
-  background: #071C39;
+  background: #071c39;
 }
 
 .grey-bg {
-  background: #20334D;
+  background: #20334d;
 }
 
 .common-two-cell-block {
@@ -136,11 +136,11 @@
 }
 
 .text-hightlight-blue {
-  color: #4BAAD0;
+  color: #4baad0;
   display: block;
 }
 
-.cust-disc-ul li{
+.cust-disc-ul li {
   position: relative;
   padding-left: 20px;
   color: #fff;
@@ -155,6 +155,6 @@
   top: 15px;
   width: 6px;
   height: 6px;
-  background: #4BAAD0;
+  background: #4baad0;
   border-radius: 50%;
 }
