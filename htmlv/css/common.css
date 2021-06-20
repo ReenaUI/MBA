@@ -139,3 +139,22 @@
   color: #4BAAD0;
   display: block;
 }
+
+.cust-disc-ul li{
+  position: relative;
+  padding-left: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.cust-disc-ul li::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 15px;
+  width: 6px;
+  height: 6px;
+  background: #4BAAD0;
+  border-radius: 50%;
+}

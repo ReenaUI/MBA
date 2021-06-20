@@ -1961,7 +1961,7 @@ h2 cite {
 .tab-section {
   background: url("../images/contract-solution.png") no-repeat center;
   background-size: cover;
-  padding-top: 374px;
+  padding-top: 177px;
   padding-bottom: 200px;
   position: relative;
 }
@@ -1970,8 +1970,11 @@ h2 cite {
   background: url("../images/gradiant-3.png") no-repeat center;
   background-size: cover;
 }
+.cont-perms-tabs {
+  padding-top: 374px;
+}
 
-.tab-section::after {
+.cont-perms-tabs::after {
   position: absolute;
   content: "";
   border-top: 1px solid #707070;
@@ -1995,6 +1998,10 @@ h2 cite {
 .tab-section .cust-ver-tabs-block {
   max-width: 548px;
 }
+
+.tab-section .left-cell {
+  width: 45%;
+} 
 
 .cust-ver-tabs-block .nav-tabs .nav-link {
   border: none;
@@ -2172,3 +2179,51 @@ h2 cite {
 .candi-seeker-QA .two-col-cell p {
   margin-bottom: 55px;
 }
+
+/* ict technology page*/
+.itc-banner {
+  background: url("../images/itc-banner.png") no-repeat center;
+  background-size: cover;
+}
+
+.itc-about-block.common-two-cell-block {
+  padding-top: 115px;
+  padding-bottom: 196px;
+}
+
+.ict-tabs-block {
+  padding-bottom: 170px;
+}
+
+.ict-tabs-block .disc-feature-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ict-tabs-block .theme-h2 {
+  margin-bottom: 60px;
+}
+
+.ict-tabs-block .disc-feature-list ul{
+  width: 44.8%;
+}
+
+.ict-tabs-block .disc-feature-list ul li {
+  margin-bottom: 36px;
+}
+
+.ict-tabs-block .disc-feature-list ul li:last-child {
+  margin-bottom: 0;
+}
+
+.itc-QA-block {
+  background: url("../images/itc-QA.png") no-repeat center;
+  background-size: cover;
+  padding-top: 250px;
+  padding-bottom: 188px;
+}
+
+.itc-QA-block .QA-block-cell .QA-dark {
+  background: rgba(7, 28, 57, 0.5);
+}
+

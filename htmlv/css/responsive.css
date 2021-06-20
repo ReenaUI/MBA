@@ -117,14 +117,16 @@
   .full-cell-block h2 {
     margin-bottom: 75px;
   }
-  .tab-section::after {
+  .cont-perms-tabs::after {
     top: 203px;
   }
   .tab-section {
-    padding-top: 284px;
     padding-bottom: 100px;
   }
-  .tab-section::after {
+  .cont-perms-tabs {
+    padding-top: 284px;
+  }
+  .cont-perms-tabs::after {
     top: 173px;
   }
   .full-cell-block h2 {
@@ -522,14 +524,16 @@
   .full-cell-block h2 {
     margin-bottom: 64px;
   }
-  .tab-section::after {
+  .cont-perms-tabs::after {
     top: 203px;
   }
   .tab-section {
-    padding-top: 244px;
     padding-bottom: 100px;
   }
-  .tab-section::after {
+  .cont-perms-tabs {
+    padding-top: 244px;
+  }
+  .cont-perms-tabs::after {
     top: 133px;
   }
   .full-cell-block h2 {
@@ -562,19 +566,19 @@
   }
   /* candi-seeker*/
   .candi-about-block {
-    padding-bottom: 155px;
+    padding-bottom: 135px;
     padding-top: 132px;
   }
   .common-QA-block {
-    padding-top: 157px;
-    padding-bottom: 157px;
+    padding-top: 137px;
+    padding-bottom: 137px;
   }
   .common-QA-block h2 {
     margin-bottom: 65px;
   }
   .candi-seeker-QA {
-    padding-top: 155px;
-    padding-bottom: 155px;
+    padding-top: 135px;
+    padding-bottom: 135px;
   }
   .common-CTA-block .cust-container::after {
     width: 582px;
@@ -586,6 +590,23 @@
     width: 857px;
     height: 857px;
   }
+
+  /* itc */
+  .QA-block-row .QA-block-cell span {
+    font-size: 18px;
+    padding: 15px 20px 16px;
+  }
+  .itc-about-block.common-two-cell-block {
+    padding-top: 105px;
+    padding-bottom: 106px;
+  }
+  .ict-tabs-block.tab-section {
+    padding-top: 137px;
+    padding-bottom: 100px;
+  }
+  .ict-tabs-block .disc-feature-list ul li {
+    margin-bottom: 26px;
+ }
 }
 
 @media (min-width: 1366px) and (max-width: 1439px) {
@@ -1061,7 +1082,7 @@
     bottom: -10px;
   }
   .cust-ver-tabs-block .nav-tabs .nav-link {
-    padding: 18px 23px 18px 90px;
+    padding: 12px 23px 12px 90px;
   }
   .contract-banner .banner-cont .banner-inner .banner-left .arrow-lists {
     margin-top: 37px;
@@ -1080,21 +1101,23 @@
   .full-cell-block h2 {
     margin-bottom: 55px;
   }
-  .tab-section::after {
+  .cont-perms-tabs::after {
     top: 203px;
   }
   .tab-section {
-    padding-top: 244px;
     padding-bottom: 100px;
   }
-  .tab-section::after {
+  .cont-perms-tabs {
+    padding-top: 244px;
+  }
+  .cont-perms-tabs::after {
     top: 133px;
   }
   .full-cell-block h2 {
     max-width: 978px;
   }
   .tab-section .theme-h2 {
-    margin-bottom: 30px;
+    margin-bottom: 45px;
   }
   .tab-section .cust-ver-tabs-block {
     max-width: 498px;
@@ -1167,7 +1190,7 @@
     height: 857px;
   }
   .common-QA-block h2 {
-    margin-bottom: 55px;
+    margin-bottom: 45px;
   }
   .QA-block-row .QA-block-cell span {
     font-size: 18px;
@@ -1179,6 +1202,29 @@
   }
   .candi-seeker-QA .two-col-cell p {
     margin-bottom: 45px;
+  }
+  /* itc */
+  .QA-block-row .QA-block-cell span {
+    font-size: 18px;
+    padding: 11px ​20px 12px;
+  }
+  .itc-about-block.common-two-cell-block {
+    padding-top: 35px;
+    padding-bottom: 106px;
+  }
+  .ict-tabs-block.tab-section {
+    padding-top: 137px;
+    padding-bottom: 100px;
+  }
+  .ict-tabs-block .disc-feature-list ul li {
+    margin-bottom: 18px;
+  }
+  .itc-about-block .theme-h2 {
+    max-width: 418px;
+  }
+  .cust-disc-ul li {
+    font-size: 18px;
+    line-height: 28px;
   }
 }
 
@@ -1704,21 +1750,22 @@
   .full-cell-block h2 {
     margin-bottom: 55px;
   }
-  .tab-section::after {
+  .cont-perms-tabs::after {
     top: 203px;
   }
   .tab-section {
     padding-top: 164px;
     padding-bottom: 100px;
   }
-  .tab-section::after {
+
+  .cont-perms-tabs::after {
     top: 93px;
   }
   .full-cell-block h2 {
     max-width: 978px;
   }
   .tab-section .theme-h2 {
-    margin-bottom: 30px;
+    margin-bottom: 45px;
   }
   .tab-section .cust-ver-tabs-block {
     max-width: 408px;
@@ -1791,7 +1838,7 @@
     height: 757px;
   }
   .common-QA-block h2 {
-    margin-bottom: 55px;
+    margin-bottom: 45px;
   }
   .QA-block-row .QA-block-cell span {
     font-size: 18px;
@@ -1803,6 +1850,29 @@
   }
   .candi-seeker-QA .two-col-cell p {
     margin-bottom: 45px;
+  }
+  /* itc */
+  .QA-block-row .QA-block-cell span {
+    font-size: 18px;
+    padding: 11px 20px 12px;
+  }
+  .itc-about-block.common-two-cell-block {
+    padding-top: 35px;
+    padding-bottom: 96px;
+  }
+  .ict-tabs-block.tab-section {
+    padding-top: 97px;
+    padding-bottom: 90px;
+  }
+  .ict-tabs-block .disc-feature-list ul li {
+    margin-bottom: 18px;
+  }
+  .itc-about-block .theme-h2 {
+    max-width: 418px;
+  }
+  .cust-disc-ul li {
+    font-size: 18px;
+    line-height: 28px;
   }
 }
 
@@ -2396,21 +2466,21 @@
   .full-cell-block h2 {
     margin-bottom: 45px;
   }
-  .tab-section::after {
+  .cont-perms-tabs::after {
     top: 203px;
   }
   .tab-section {
     padding-top: 144px;
     padding-bottom: 80px;
   }
-  .tab-section::after {
+  .cont-perms-tabs::after {
     top: 63px;
   }
   .full-cell-block h2 {
     max-width: 838px;
   }
   .tab-section .theme-h2 {
-    margin-bottom: 30px;
+    margin-bottom: 45px;
   }
   .tab-section .cust-ver-tabs-block {
     max-width: 408px;
@@ -2499,6 +2569,42 @@
   .candi-seeker-QA .two-col-cell p {
     margin-bottom: 45px;
   }
+  /* itc */
+  .QA-block-row .QA-block-cell span {
+    font-size: 18px;
+    padding: 11px 20px 12px;
+  }
+  .itc-about-block.common-two-cell-block {
+    padding-top: 35px;
+    padding-bottom: 96px;
+  }
+  .ict-tabs-block.tab-section {
+    padding-top: 97px;
+    padding-bottom: 90px;
+  }
+  .ict-tabs-block .disc-feature-list ul li {
+    margin-bottom: 18px;
+  }
+  .itc-about-block .theme-h2 {
+    max-width: 418px;
+  }
+  .cust-disc-ul li {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .ict-tabs-block .two-col-cell {
+    flex-direction: column;
+  }
+  .ict-tabs-block  .two-col-cell .left-cell {
+    width: 100%;
+  }
+  .ict-tabs-block  .two-col-cell .right-cell {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .ict-tabs-block .disc-feature-list {
+    max-width: 930px;
+ }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -3562,21 +3668,21 @@
   .full-cell-block h2 {
     margin-bottom: 45px;
   }
-  .tab-section::after {
+  .cont-perms-tabs::after {
     top: 203px;
   }
   .tab-section {
     padding-top: 134px;
     padding-bottom: 20px;
   }
-  .tab-section::after {
+  .cont-perms-tabs::after {
     top: 63px;
   }
   .full-cell-block h2 {
     max-width: 838px;
   }
   .tab-section .theme-h2 {
-    margin-bottom: 30px;
+    margin-bottom: 45px;
   }
   .tab-section .cust-ver-tabs-block {
     max-width: 408px;
@@ -3654,8 +3760,8 @@
   .vol-statementwork-block.common-two-cell-block {
     padding-bottom: 50px;
   }
-   /* candi-seeker*/
-   .candi-about-block {
+  /* candi-seeker*/
+  .candi-about-block {
     padding-bottom: 95px;
     padding-top: 92px;
   }
@@ -3691,6 +3797,41 @@
   .candi-seeker-QA .two-col-cell p {
     margin-bottom: 35px;
   }
+    /* itc */
+    .QA-block-row .QA-block-cell span {
+      padding: 11px 20px 12px;
+    }
+    .itc-about-block.common-two-cell-block {
+      padding-top: 0;
+      padding-bottom: 96px;
+    }
+    .ict-tabs-block.tab-section {
+      padding-top: 97px;
+      padding-bottom: 90px;
+    }
+    .ict-tabs-block .disc-feature-list ul li {
+      margin-bottom: 18px;
+    }
+    .itc-about-block .theme-h2 {
+      max-width: 418px;
+    }
+    .cust-disc-ul li {
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .ict-tabs-block .two-col-cell {
+      flex-direction: column;
+    }
+    .ict-tabs-block  .two-col-cell .left-cell {
+      width: 100%;
+    }
+    .ict-tabs-block  .two-col-cell .right-cell {
+      width: 100%;
+      margin-top: 30px;
+    }
+    .ict-tabs-block .disc-feature-list {
+      max-width: 930px;
+   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -5029,21 +5170,21 @@
   .full-cell-block h2 {
     margin-bottom: 45px;
   }
-  .tab-section::after {
+  .cont-perms-tabs::after {
     top: 203px;
   }
   .tab-section {
     padding-top: 134px;
     padding-bottom: 0;
   }
-  .tab-section::after {
+  .cont-perms-tabs::after {
     top: 63px;
   }
   .full-cell-block h2 {
     max-width: 838px;
   }
   .tab-section .theme-h2 {
-    margin-bottom: 30px;
+    margin-bottom: 45px;
   }
   .tab-section .cust-ver-tabs-block {
     max-width: 100%;
@@ -5173,54 +5314,101 @@
     padding-bottom: 10px;
   }
 
-    /* candi-seeker*/
-    .candi-about-block {
-      padding-bottom: 65px;
-      padding-top: 42px;
-    }
-    .common-QA-block {
-      padding-top: 67px;
-      padding-bottom: 87px;
-    }
-    .candi-seeker-QA {
-      padding-top: 65px;
-      padding-bottom: 5px;
-    }
-    .common-CTA-block .cust-container::after {
-      width: 192px;
-      height: 192px;
-      top: -431px;
-      left: auto;
-      right: 20px;
-    }
-    .common-CTA-block .cust-container::before {
-      top: -153px;
-      width: 227px;
-      height: 227px;
-      left: 20px;
-      right: auto;
-    }
-    .common-QA-block h2 {
-      margin-bottom: 45px;
-    }
+  /* candi-seeker*/
+  .candi-about-block {
+    padding-bottom: 65px;
+    padding-top: 42px;
+  }
+  .common-QA-block {
+    padding-top: 67px;
+    padding-bottom: 20px;
+  }
+  .candi-seeker-QA {
+    padding-top: 65px;
+    padding-bottom: 5px;
+  }
+  .common-CTA-block .cust-container::after {
+    width: 192px;
+    height: 192px;
+    top: -431px;
+    left: auto;
+    right: 20px;
+  }
+  .common-CTA-block .cust-container::before {
+    top: -153px;
+    width: 227px;
+    height: 227px;
+    left: 20px;
+    right: auto;
+  }
+  .common-QA-block h2 {
+    margin-bottom: 45px;
+  }
+  .QA-block-row .QA-block-cell span {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 11px 16px 12px;
+  }
+  .QA-block-row {
+    max-width: 1079px;
+    flex-direction: column;
+  }
+  .QA-block-row .QA-block-cell {
+    width: 100%;
+  }
+  .candi-seeker-QA .two-col-cell p {
+    margin-bottom: 30px;
+  }
+  .banner-outer
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .banner-button.two-btn-wrap {
+    display: flex;
+  }
+    /* itc */
     .QA-block-row .QA-block-cell span {
+      padding: 11px 20px 12px;
+    }
+    .itc-about-block.common-two-cell-block {
+      padding-top: 0;
+      padding-bottom: 66px;
+    }
+    .ict-tabs-block.tab-section {
+      padding-top: 67px;
+      padding-bottom: 60px;
+    }
+    .ict-tabs-block .disc-feature-list ul li,
+    .ict-tabs-block .disc-feature-list ul li:last-child {
+      margin-bottom: 15px;
+    }
+    .cust-disc-ul li::before {
+      top: 10px;
+    }
+    .itc-about-block .theme-h2 {
+      max-width: 418px;
+    }
+    .cust-disc-ul li {
       font-size: 16px;
       line-height: 26px;
-      padding: 11px 16px 12px;
     }
-    .QA-block-row {
-      max-width: 1079px;
+    .ict-tabs-block .two-col-cell {
       flex-direction: column;
     }
-    .QA-block-row .QA-block-cell {
+    .ict-tabs-block  .two-col-cell .left-cell {
       width: 100%;
     }
-    .candi-seeker-QA .two-col-cell p {
-      margin-bottom: 30px;
+    .ict-tabs-block  .two-col-cell .right-cell {
+      width: 100%;
+      margin-top: 30px;
     }
-    .banner-outer .banner-cont .banner-inner .banner-left .banner-button.two-btn-wrap {
-      display: flex;
-    }
+    .ict-tabs-block .disc-feature-list {
+      max-width: 930px;
+      flex-direction: column;
+   }
+   .ict-tabs-block .disc-feature-list ul {
+     width: 100%;
+   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .inner-pages-banner::before {
@@ -5259,7 +5447,6 @@
     .two-btn-wrap.custom-button:first-child {
     margin-right: 0;
   }
-
 }
 
 @media (min-width: 320px) and (max-width: 374px) {
@@ -5316,11 +5503,20 @@
     width: 100%;
     max-width: 280px;
   }
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-button.two-btn-wrap {
+  .banner-outer
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .banner-button.two-btn-wrap {
     display: flex;
     flex-wrap: wrap;
   }
-  .banner-outer .banner-cont .banner-inner .banner-left .banner-button.two-btn-wrap .custom-button {
+  .banner-outer
+    .banner-cont
+    .banner-inner
+    .banner-left
+    .banner-button.two-btn-wrap
+    .custom-button {
     display: block;
     margin-bottom: 20px;
     margin-right: 0;
